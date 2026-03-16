@@ -34,6 +34,7 @@ Analysis of 520 sales transactions covering revenue trends, product performance,
 | Item | Detail |
 |------|--------|
 | Dataset | 520 rows, 15 columns |
+| Clean Data | 472 rows, 19 columns |
 | Tools | Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly |
 | Charts | 12 (6 static + 6 interactive) |
 
@@ -69,22 +70,27 @@ End-to-end ML pipeline on 1000 loan records to predict default risk using Logist
 ### 4. 🧪 Data Testing & Validation Framework
 **Folder:** `Tests/`
 
-Production-grade automated testing framework covering all 3 datasets with 59 tests across 5 test suites.
+Production-grade automated testing framework covering all 3 datasets with 57 tests across 6 test suites. Generates visual HTML report and timestamped CSV results on every run.
 
 | Item | Detail |
 |------|--------|
-| Total Tests | 59 |
-| Passed | 51 |
-| Failed | 2 (expected — raw data issues fixed in Phase 1) |
-| Warnings | 6 (harmless) |
+| Total Tests | 57 |
+| ✅ Passed | 55 |
+| ❌ Failed | 2 (intentional — raw data issues documented) |
+| ⚠️ Warnings | 0 |
 | Tools | Python, Pandas, NumPy, Scikit-learn |
+| Outputs | HTML visual report + CSV results history |
 
 **Test Suites:**
-- Suite 1 — Schema Validation
-- Suite 2 — Data Quality
-- Suite 3 — Statistical Sanity
-- Suite 4 — ML Model Sanity
-- Suite 5 — Data Drift Detection
+
+| Suite | Tests | Status |
+|-------|-------|--------|
+| Suite 1 — Schema Validation | 23 | ✅ |
+| Suite 2 — Raw Data Quality | 8 | ❌ (expected) |
+| Suite 3 — Clean Data Quality | 11 | ✅ |
+| Suite 4 — Statistical Sanity | 7 | ✅ |
+| Suite 5 — ML Model Sanity | 5 | ✅ |
+| Suite 6 — Drift Detection | 3 | ✅ |
 
 ---
 
@@ -119,6 +125,8 @@ Data-Science-Portfolio/
 │
 ├── Tests/
 │   ├── phase4_data_testing.py
+│   ├── test_report.html
+│   ├── test_results.csv
 │   └── README.md
 │
 └── README.md
@@ -151,21 +159,23 @@ conda activate myenv
 # Install dependencies
 pip install numpy pandas matplotlib seaborn plotly scikit-learn
 
-# Run any project
+# Run Healthcare project
 cd Healthcare-Visualization
 python phase1_healthcare_eda.py
 python phase2_healthcare_viz.py
 
+# Run Sales project
 cd ../Sales-EDA
 python phase1_sales_eda.py
 python phase2_sales_viz.py
 
+# Run Finance ML project
 cd ../Finance-ML
 python phase1_finance_eda.py
 python phase2_finance_viz.py
 python phase3_finance_ml.py
 
-# Run tests
+# Run all tests
 cd ../Tests
 python phase4_data_testing.py
 ```
