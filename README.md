@@ -1,6 +1,6 @@
 # Data Science Portfolio — Japendra
 
-Welcome to my Data Science Portfolio! This repository contains end-to-end data analysis projects showcasing data cleaning, EDA, visualizations, machine learning, production-grade testing, and an interactive Streamlit dashboard using Python.
+Welcome to my Data Science Portfolio! This repository contains end-to-end data analysis projects showcasing data cleaning, EDA, visualizations, machine learning, production-grade testing, an interactive Streamlit dashboard, and SQL analytics using Python and MySQL.
 
 ---
 
@@ -114,6 +114,33 @@ Interactive web dashboard covering all 3 projects with live charts, filters, KPI
 
 ---
 
+### 6. 🗄️ SQL Analytics — Multi-Domain Database Project
+**Folder:** `SQL-Analytics/`
+
+Production-grade SQL project covering 4 business domains with 12 tables and 50+ queries demonstrating core to advanced SQL concepts using MySQL 8.0.
+
+| Item | Detail |
+|------|--------|
+| Database | `portfolio_analytics` |
+| Domains | E-Commerce, Healthcare, Finance, HR |
+| Tables | 12 |
+| Query Files | 6 |
+| Total Queries | 50+ |
+| Tools | MySQL 8.0 |
+
+**SQL Concepts Covered:**
+
+| File | Concept |
+|------|---------|
+| 01_basic_queries.sql | SELECT, WHERE, ORDER BY, LIMIT |
+| 02_joins.sql | INNER, LEFT, SELF JOIN |
+| 03_aggregations.sql | GROUP BY, HAVING, COUNT, SUM, AVG |
+| 04_window_functions.sql | RANK, LAG, LEAD, OVER, PARTITION BY |
+| 05_subqueries_ctes.sql | Subqueries, CTEs, CASE WHEN |
+| 06_stored_procedures.sql | Stored procedures with IN/OUT params |
+
+---
+
 ## Repository Structure
 ```
 Data-Science-Portfolio/
@@ -154,6 +181,16 @@ Data-Science-Portfolio/
 │   ├── requirements.txt
 │   └── README.md
 │
+├── SQL-Analytics/
+│   ├── queries/
+│   │   ├── 01_basic_queries.sql
+│   │   ├── 02_joins.sql
+│   │   ├── 03_aggregations.sql
+│   │   ├── 04_window_functions.sql
+│   │   ├── 05_subqueries_ctes.sql
+│   │   └── 06_stored_procedures.sql
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -163,11 +200,12 @@ Data-Science-Portfolio/
 
 | Category | Tools |
 |----------|-------|
-| Language | Python 3.13+ |
+| Language | Python 3.13+, SQL |
 | Data Manipulation | Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn, Plotly |
 | Machine Learning | Scikit-learn |
 | Dashboard | Streamlit |
+| Database | MySQL 8.0 |
 | Testing | Custom TestRunner Framework |
 | Environment | Anaconda, VS Code |
 | Version Control | Git, GitHub |
@@ -208,11 +246,15 @@ python phase4_data_testing.py
 # Run Streamlit dashboard
 cd ../Streamlit-Dashboard
 streamlit run app.py
+
+# Run SQL queries (MySQL)
+mysql -u root -p
+SOURCE queries/01_basic_queries.sql;
 ```
 
 ---
 
 ## Author
 **Japendra**
-Data Scientist | Python | Pandas | Data Visualization | Machine Learning
+Data Scientist | Python | SQL | Pandas | Data Visualization | Machine Learning
 📁 [GitHub Portfolio](https://github.com/Reddy062023/Data-Science-Portfolio)
