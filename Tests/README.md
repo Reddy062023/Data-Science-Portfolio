@@ -1,9 +1,10 @@
 # Tests — Data Quality & Validation Framework
 
 ## Overview
-Production-grade data testing and validation framework covering all 3 portfolio projects.
-Runs 59 automated tests across 5 test suites to ensure data integrity, statistical sanity,
+Production-grade automated testing and validation framework covering all 3 portfolio projects.
+Runs 57 automated tests across 6 test suites to ensure data integrity, statistical sanity,
 ML model quality, and drift detection.
+Generates both an **HTML visual report** and a **CSV results file** on every run.
 
 ---
 
@@ -11,6 +12,8 @@ ML model quality, and drift detection.
 ```
 Tests/
 ├── phase4_data_testing.py    # Main test script
+├── test_report.html          # Visual HTML report (auto-generated)
+├── test_results.csv          # CSV results with history (auto-generated)
 └── README.md
 ```
 
@@ -18,30 +21,33 @@ Tests/
 
 ## Test Suites
 
-### Suite 1 — Schema Validation
+### Suite 1 — Schema Validation (23 tests)
 - Validates required columns exist in all 3 datasets
-- Checks column data types match expected schema
-- Covers Sales, Healthcare, and Finance datasets
+- Covers Sales (8 columns), Finance (7 columns), Healthcare (8 columns)
 
-### Suite 2 — Data Quality
-- Null rate thresholds per dataset
-- Duplicate row detection
-- Range and domain constraint checks
-- Referential integrity validation
+### Suite 2 — Raw Data Quality (8 tests)
+- Tests raw data BEFORE Phase 1 cleaning
+- Shows what issues existed and were fixed
+- Null rate thresholds, duplicate detection, range checks
 
-### Suite 3 — Statistical Sanity
+### Suite 3 — Clean Data Quality (11 tests)
+- Tests clean data AFTER Phase 1 cleaning
+- Validates duplicates removed, nulls filled
+- Confirms feature engineering columns created correctly
+
+### Suite 4 — Statistical Sanity (7 tests)
 - Class balance checks
-- Coefficient of variation (variance) checks
+- Coefficient of variation checks
 - Correlation direction validation
 
-### Suite 4 — ML Model Sanity
+### Suite 5 — ML Model Sanity (5 tests)
 - AUC > 0.65 threshold
 - 5-fold cross-validation AUC > 0.60
 - Overfitting gap < 0.10
 - Both classes predicted
 - No train/test data leakage
 
-### Suite 5 — Data Drift Detection
+### Suite 6 — Data Drift Detection (3 tests)
 - Normalised mean shift between baseline and new batch
 - Covers income, credit score, loan amount
 
@@ -51,32 +57,49 @@ Tests/
 
 | Metric | Result |
 |--------|--------|
-| Total Tests | 59 |
-| ✅ Passed | 51 |
+| Total Tests | 57 |
+| ✅ Passed | 55 |
 | ❌ Failed | 2 |
-| ⚠️ Warnings | 6 |
+| ⚠️ Warnings | 0 |
 
-### Failed Tests (expected — raw data issues fixed in Phase 1)
-| Test | Detail |
-|------|--------|
-| `sales: no duplicate order_ids` | 20 dupes in raw data — removed in Phase 1 |
-| `sales: quantity all positive` | 5 invalid rows in raw data — removed in Phase 1 |
+### Per Suite Breakdown
 
-### Warnings
-| Warning | Detail |
-|---------|--------|
-| `sales dtype str vs object` | Pandas 3.x shows `str` instead of `object` — harmless |
-| `healthcare: bmi outliers` | 4 outlier BMIs — handled in Phase 1 cleaning |
+| Suite | Total | ✅ Passed | ❌ Failed | ⚠️ Warnings | Status |
+|-------|-------|-----------|-----------|-------------|--------|
+| Suite 1 - Schema | 23 | 23 | 0 | 0 | ✅ PASS |
+| Suite 2 - Raw Quality | 8 | 6 | 2 | 0 | ❌ FAIL (expected) |
+| Suite 3 - Clean Quality | 11 | 11 | 0 | 0 | ✅ PASS |
+| Suite 4 - Statistical | 7 | 7 | 0 | 0 | ✅ PASS |
+| Suite 5 - ML Model | 5 | 5 | 0 | 0 | ✅ PASS |
+| Suite 6 - Drift Detection | 3 | 3 | 0 | 0 | ✅ PASS |
+
+### Failed Tests Explanation
+| Test | Detail | Why Expected |
+|------|--------|--------------|
+| `sales: no duplicate order_ids` | 20 dupes in raw data | Fixed in Phase 1 — clean data passes ✅ |
+| `sales: quantity all positive` | 5 invalid rows in raw data | Fixed in Phase 1 — clean data passes ✅ |
+
+> **Note:** Suite 2 intentionally tests RAW data to document what issues existed before cleaning.
+> Suite 3 confirms all issues are resolved in the clean data.
+
+---
+
+## Output Files
+
+| File | Description |
+|------|-------------|
+| `test_report.html` | Visual dashboard with colored cards — open in browser |
+| `test_results.csv` | Timestamped results — appends on every run to build history |
 
 ---
 
 ## Datasets Tested
 
-| Dataset | Location | Rows | Columns |
-|---------|----------|------|---------|
-| Sales | `Sales-EDA/sales_data.csv` | 520 | 15 |
-| Healthcare | `Healthcare-Visualization/healthcare_data.csv` | 800 | 22 |
-| Finance | `Finance-ML/finance_data.csv` | 1000 | 20 |
+| Dataset | Location | Raw Shape | Clean Shape |
+|---------|----------|-----------|-------------|
+| Sales | `Sales-EDA/` | 520 × 15 | 472 × 19 |
+| Healthcare | `Healthcare-Visualization/` | 800 × 22 | 770 × 26 |
+| Finance | `Finance-ML/` | 1000 × 20 | 960 × 29 |
 
 ---
 
@@ -97,6 +120,10 @@ pip install numpy pandas scikit-learn
 cd Tests
 python phase4_data_testing.py
 ```
+
+### 4. View results
+- Open `test_report.html` in browser for visual dashboard
+- Open `test_results.csv` in Excel for historical results
 
 ---
 
