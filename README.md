@@ -1,6 +1,6 @@
 # Data Science Portfolio — Japendra
 
-Welcome to my Data Science Portfolio! This repository contains end-to-end data analysis projects showcasing data cleaning, EDA, visualizations, machine learning, and production-grade data testing using Python.
+Welcome to my Data Science Portfolio! This repository contains end-to-end data analysis projects showcasing data cleaning, EDA, visualizations, machine learning, production-grade testing, and an interactive Streamlit dashboard using Python.
 
 ---
 
@@ -94,6 +94,26 @@ Production-grade automated testing framework covering all 3 datasets with 57 tes
 
 ---
 
+### 5. 📱 Streamlit Portfolio Dashboard
+**Folder:** `Streamlit-Dashboard/`
+
+Interactive web dashboard covering all 3 projects with live charts, filters, KPI metrics, and a real-time loan default predictor.
+
+| Item | Detail |
+|------|--------|
+| Pages | 4 (Home, Sales, Healthcare, Finance ML) |
+| Tools | Python, Streamlit, Plotly, Scikit-learn |
+| Features | Live filters, ML predictor, risk gauge, interactive charts |
+| Run | `streamlit run app.py` |
+
+**Key Features:**
+- 📊 Interactive filters on every page
+- 🤖 Real-time loan default prediction with risk gauge
+- 📈 Plotly interactive charts
+- 🏠 Portfolio overview with key metrics
+
+---
+
 ## Repository Structure
 ```
 Data-Science-Portfolio/
@@ -129,6 +149,11 @@ Data-Science-Portfolio/
 │   ├── test_results.csv
 │   └── README.md
 │
+├── Streamlit-Dashboard/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -142,6 +167,7 @@ Data-Science-Portfolio/
 | Data Manipulation | Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn, Plotly |
 | Machine Learning | Scikit-learn |
+| Dashboard | Streamlit |
 | Testing | Custom TestRunner Framework |
 | Environment | Anaconda, VS Code |
 | Version Control | Git, GitHub |
@@ -157,7 +183,7 @@ git clone https://github.com/Reddy062023/Data-Science-Portfolio.git
 conda activate myenv
 
 # Install dependencies
-pip install numpy pandas matplotlib seaborn plotly scikit-learn
+pip install numpy pandas matplotlib seaborn plotly scikit-learn streamlit
 
 # Run Healthcare project
 cd Healthcare-Visualization
@@ -175,9 +201,13 @@ python phase1_finance_eda.py
 python phase2_finance_viz.py
 python phase3_finance_ml.py
 
-# Run all tests
+# Run tests
 cd ../Tests
 python phase4_data_testing.py
+
+# Run Streamlit dashboard
+cd ../Streamlit-Dashboard
+streamlit run app.py
 ```
 
 ---
