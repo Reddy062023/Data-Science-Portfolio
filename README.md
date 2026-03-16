@@ -4,6 +4,11 @@ Welcome to my Data Science Portfolio! This repository contains end-to-end data a
 
 ---
 
+## 🚀 Live Dashboard
+👉 **[View Live Portfolio Dashboard](https://data-science-portfolio-25fwd289aynlntfxgs8rxm.streamlit.app)**
+
+---
+
 ## Projects
 
 ### 1. 🏥 Healthcare Data — EDA & Visualization
@@ -104,7 +109,8 @@ Interactive web dashboard covering all 3 projects with live charts, filters, KPI
 | Pages | 4 (Home, Sales, Healthcare, Finance ML) |
 | Tools | Python, Streamlit, Plotly, Scikit-learn |
 | Features | Live filters, ML predictor, risk gauge, interactive charts |
-| Run | `streamlit run app.py` |
+| Run locally | `streamlit run app.py` |
+| Live Demo | [Click here](https://data-science-portfolio-25fwd289aynlntfxgs8rxm.streamlit.app) |
 
 **Key Features:**
 - 📊 Interactive filters on every page
@@ -258,3 +264,4 @@ SOURCE queries/01_basic_queries.sql;
 **Japendra**
 Data Scientist | Python | SQL | Pandas | Data Visualization | Machine Learning
 📁 [GitHub Portfolio](https://github.com/Reddy062023/Data-Science-Portfolio)
+🚀 [Live Dashboard](https://data-science-portfolio-25fwd289aynlntfxgs8rxm.streamlit.app)
