@@ -120,5 +120,5 @@ python phase2_sales_viz.py
 ---
 
 ## Author
-Geetu  
+Japendra  
 Data Analysis Portfolio — Sales EDA Project
