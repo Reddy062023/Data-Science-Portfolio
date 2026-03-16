@@ -1,6 +1,6 @@
 # Data Science Portfolio — Japendra
 
-Welcome to my Data Science Portfolio! This repository contains end-to-end data analysis projects showcasing data cleaning, EDA, visualizations, and business insights using Python.
+Welcome to my Data Science Portfolio! This repository contains end-to-end data analysis projects showcasing data cleaning, EDA, visualizations, and machine learning using Python.
 
 ---
 
@@ -45,6 +45,27 @@ Analysis of 520 sales transactions covering revenue trends, product performance,
 
 ---
 
+### 3. 💰 Finance ML — Loan Default Prediction
+**Folder:** `Finance-ML/`
+
+End-to-end ML pipeline on 1000 loan records to predict default risk using Logistic Regression, Random Forest, and Gradient Boosting.
+
+| Item | Detail |
+|------|--------|
+| Dataset | 1000 rows, 20 columns |
+| Clean Data | 960 rows, 29 columns |
+| Tools | Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn |
+| Charts | 15 (7 static + 7 interactive + 1 ML evaluation) |
+| Models | Logistic Regression, Random Forest, Gradient Boosting |
+
+**Key Findings:**
+- Overall loan default rate: **37.5%**
+- Credit score and debt-to-income are top predictors
+- Gradient Boosting achieved highest AUC score
+- Late payments and loan grade are strong risk indicators
+
+---
+
 ## Repository Structure
 ```
 Data-Science-Portfolio/
@@ -65,6 +86,15 @@ Data-Science-Portfolio/
 │   ├── plots/
 │   └── README.md
 │
+├── Finance-ML/
+│   ├── finance_data.csv
+│   ├── finance_data_clean.csv
+│   ├── phase1_finance_eda.py
+│   ├── phase2_finance_viz.py
+│   ├── phase3_finance_ml.py
+│   ├── plots/
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -77,6 +107,7 @@ Data-Science-Portfolio/
 | Language | Python 3.13+ |
 | Data Manipulation | Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn, Plotly |
+| Machine Learning | Scikit-learn |
 | Environment | Anaconda, VS Code |
 | Version Control | Git, GitHub |
 
@@ -88,22 +119,23 @@ Data-Science-Portfolio/
 git clone https://github.com/Reddy062023/Data-Science-Portfolio.git
 
 # Navigate to any project
-cd Healthcare-Visualization
+cd Finance-ML
 
 # Activate environment
 conda activate myenv
 
 # Install dependencies
-pip install numpy pandas matplotlib seaborn plotly
+pip install numpy pandas matplotlib seaborn plotly scikit-learn
 
 # Run analysis
-python phase1_healthcare_eda.py
-python phase2_healthcare_viz.py
+python phase1_finance_eda.py
+python phase2_finance_viz.py
+python phase3_finance_ml.py
 ```
 
 ---
 
 ## Author
-**Japendra**  
-Data Scientist | Python | Pandas | Data Visualization  
+**Japendra**
+Data Scientist | Python | Pandas | Data Visualization | Machine Learning
 📁 [GitHub Portfolio](https://github.com/Reddy062023/Data-Science-Portfolio)
