@@ -1,82 +1,96 @@
-<<<<<<< HEAD
-# Healthcare Data Visualization — Phase 2
+# Sales Data — Exploratory Data Analysis (Phase 1)
 
 ## Overview
-This project demonstrates exploratory data visualization on a healthcare dataset containing **800 patients and 22 features**. The focus is on **patient demographics, risk factors, and clinical insights**. Charts are designed with professional styling and storytelling suitable for data-driven decision-making.
-
-## Tools & Libraries
-- **Python**: pandas, numpy  
-- **Visualization**: matplotlib, seaborn, gridspec  
-- **Data Cleaning & Analysis**: Handling missing values, aggregation, crosstabs
-
-## Dataset
-- **File**: `healthcare_data.csv`  
-- **Key Features**: `age`, `bmi`, `blood_pressure_systolic`, `cholesterol_total`, `glucose_level`, `hospital_days`, `readmitted_30d`, `diagnosis`, `smoker`, `diabetic`, `exercise_hrs_week`  
-
-> Note: The dataset is anonymized and suitable for educational purposes.
-
-## Key Visualizations
-
-### 1️⃣ Patient Population Overview (2x3 Grid)
-- Age distribution by diagnosis
-- BMI vs Systolic Blood Pressure (scatter)
-- Diagnosis distribution (pie chart)
-- 30-day readmission rate by insurance type
-- Cholesterol distribution by smoking status
-- Hospital stay length by diagnosis
-
-![Population Overview](chart1_population_overview.png)
+Phase 1 EDA on a sales dataset (520 rows, 15 columns) from a Senior Data Scientist perspective.  
+Covers data profiling, quality checks, cleaning, feature engineering, and business insights.
 
 ---
 
-### 2️⃣ Correlation Heatmap
-- Shows correlations between numeric features (e.g., BMI, blood pressure, cholesterol)
-- Helps identify multicollinearity and relationships between risk factors
-
-![Correlation Heatmap](chart2_correlation.png)
-
----
-
-### 3️⃣ Risk Factor Analysis
-- Diagnosis mix by gender (stacked bar chart)
-- Critical diagnosis rate by age group
-- Diagnosis distribution by weekly exercise hours
-
-![Risk Factor Analysis](chart3_risk_factors.png)
+## Project Structure
+```
+Sales-EDA/
+│
+├── sales_data.csv           # Raw input data
+├── sales_data_clean.csv     # Cleaned output (auto-generated)
+├── phase1_sales_eda.py      # Main EDA script
+├── plots/                   # Visualizations folder
+└── README.md                # Project documentation
+```
 
 ---
 
-## Key Insights
-- **Readmission Rate**: XX% overall
-- **Hospital Stay**: Critical patients stay longer on average
-- **Risk Factors**:
-  - Smokers and diabetics have a higher critical diagnosis rate
-  - Low exercise hours correlate with higher critical diagnosis percentage
-  - Age and gender differences affect diagnosis mix
+## What the Script Does
+
+### Step 1 — Load & First Look
+- Loads `sales_data.csv`
+- Prints shape, column dtypes, and first 5 rows
+
+### Step 2 — Automated Data Profile
+- Reusable `profile_dataframe()` function
+- Reports nulls, unique values, dtypes, and sample values per column
+
+### Step 3 — Data Quality & Cleaning
+- Removes duplicate `order_id` rows
+- Drops rows with negative quantity or zero unit price
+- Fixes `UNKNOWN` region values
+- Fills nulls in `returned`, `discount_pct`, and `unit_price`
+
+### Step 4 — Feature Engineering
+- Parses `order_date` and `ship_date` to datetime
+- Computes `ship_days`, `revenue`, `month`, `quarter`
+
+### Step 5 — Business Insights
+- Total revenue, avg and median order value
+- Top 5 products by revenue
+- Revenue by region with share %
+- Return rate by product
+- Monthly revenue trend
+- Sales rep leaderboard
+- Revenue by channel
+
+### Export
+- Cleaned data saved as `sales_data_clean.csv` in the same folder as the script
 
 ---
 
-## How to Run
+## Setup & Usage
+
+### 1. Clone / open the project
 ```bash
-python phase2_healthcare_viz.py
-=======
-# Sales Data EDA Project
+cd Sales-EDA
+```
 
-**Project Goal:** Perform exploratory data analysis and cleaning on sales dataset.
+### 2. Activate your environment
+```bash
+conda activate myenv
+```
 
-**Dataset:** sales_data.csv (520 rows × 15 columns)
+### 3. Install dependencies
+```bash
+pip install numpy pandas
+```
 
-**Steps performed:**
-- Data loading and inspection
-- Null value and duplicate handling
-- Feature engineering (revenue, ship_days, month, quarter)
-- Business insights: top products, revenue by region/channel, return rates
+### 4. Run the script
+```bash
+python phase1_sales_eda.py
+```
 
-**Files included:**
-- `sales_data.csv` — original dataset
-- `sales_data_clean.csv` — cleaned dataset
-- `phase1_sales_eda.py` — Python script
-- `plots/` — optional folder for charts
+---
 
-**GitHub Link:** [Add your repo link here]
->>>>>>> e393e20c5cd8d8899672a97e4053f0ae5706b503
+## Requirements
+| Package | Version  |
+|---------|----------|
+| Python  | 3.13+    |
+| pandas  | latest   |
+| numpy   | latest   |
+
+---
+
+## Output
+- `sales_data_clean.csv` — cleaned and feature-engineered dataset ready for Phase 2 visualization
+
+---
+
+## Author
+Geetu  
+Data Analysis Portfolio — Sales EDA Project

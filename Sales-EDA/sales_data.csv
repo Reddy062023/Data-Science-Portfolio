@@ -1,0 +1,521 @@
+order_id,customer_id,customer_name,region,product,category,quantity,unit_price,discount_pct,order_date,ship_date,sales_rep,channel,returned,customer_rating
+ORD-00001,CUST-052,JetStream,North,Headphones,Accessories,13,149.99,0,2022-01-01,2022-01-03,Carol White,Direct Sales,False,5
+ORD-00002,CUST-093,CloudNine,South,Tablet Max,Wearables,13,399.99,10,2022-01-02,2022-01-07,Bob Smith,Partner,False,5
+ORD-00003,CUST-015,EagleEye,,Tablet Max,Mobile,2,999.99,15,2022-01-03,2022-01-05,Dave Brown,Partner,False,5
+ORD-00004,CUST-072,FusionWorks,West,Smartphone SE,Mobile,2,1299.99,0,2022-01-04,2022-01-07,Eve Davis,In-Store,False,3
+ORD-00005,CUST-061,InnovateCo,North,Tablet Mini,Computers,13,1299.99,20,2022-01-05,2022-01-08,Carol White,Direct Sales,False,5
+ORD-00006,CUST-021,EagleEye,West,Smartphone X,Accessories,5,299.99,0,2022-01-06,2022-01-10,Eve Davis,Direct Sales,False,
+ORD-00007,CUST-083,Acme Corp,West,Monitor,Mobile,4,599.99,10,2022-01-07,2022-01-13,Carol White,Partner,False,5
+ORD-00008,CUST-087,DeltaLogic,West,Tablet Max,Accessories,11,149.99,5,2022-01-08,2022-01-10,Eve Davis,Direct Sales,False,4
+ORD-00009,CUST-075,EagleEye,West,Smartphone X,Mobile,2,299.99,15,2022-01-09,2022-01-13,Dave Brown,Direct Sales,False,4
+ORD-00010,CUST-075,JetStream,West,Laptop Pro,Wearables,3,999.99,5,2022-01-10,2022-01-12,Bob Smith,Direct Sales,False,5
+ORD-00011,CUST-088,JetStream,North,Keyboard,Wearables,7,299.99,20,2022-01-11,2022-01-15,Dave Brown,In-Store,True,4
+ORD-00012,CUST-100,EagleEye,North,Tablet Mini,Mobile,8,599.99,15,2022-01-12,2022-01-15,Alice Johnson,Direct Sales,False,2
+ORD-00013,CUST-024,GlobalEdge,East,Laptop Lite,Wearables,12,399.99,10,2022-01-13,2022-01-18,Bob Smith,Online,False,4
+ORD-00014,CUST-003,DeltaLogic,,Smartphone X,Mobile,13,299.99,15,2022-01-14,2022-01-21,Dave Brown,In-Store,False,5
+ORD-00015,CUST-022,Acme Corp,South,Laptop Pro,Wearables,6,199.99,15,2022-01-15,2022-01-19,Alice Johnson,Direct Sales,False,5
+ORD-00016,CUST-053,EagleEye,East,Monitor,Computers,11,199.99,0,2022-01-16,2022-01-18,Carol White,Direct Sales,False,3
+ORD-00017,CUST-002,GlobalEdge,West,Headphones,Computers,5,999.99,5,2022-01-17,2022-01-19,Carol White,Online,True,
+ORD-00018,CUST-088,JetStream,East,Laptop Lite,Computers,13,2499.99,25,2022-01-18,2022-01-25,Eve Davis,In-Store,False,4
+ORD-00019,CUST-030,JetStream,West,Headphones,Accessories,1,299.99,0,2022-01-19,2022-01-25,Bob Smith,Partner,False,5
+ORD-00020,CUST-038,FusionWorks,,Monitor,Accessories,8,1299.99,15,2022-01-20,2022-01-23,Carol White,Partner,False,5
+ORD-00021,CUST-002,EagleEye,East,Laptop Pro,Computers,3,599.99,,2022-01-21,2022-01-23,Bob Smith,In-Store,False,5
+ORD-00022,CUST-064,DeltaLogic,East,Tablet Max,Accessories,6,2499.99,0,2022-01-22,2022-01-23,Carol White,Direct Sales,False,
+ORD-00023,CUST-060,BrightTech,South,Headphones,Wearables,3,299.99,10,2022-01-23,2022-01-28,Eve Davis,Direct Sales,False,4
+ORD-00024,CUST-021,DeltaLogic,East,Laptop Lite,Mobile,7,1299.99,5,2022-01-24,2022-01-28,Dave Brown,Partner,False,5
+ORD-00025,CUST-033,JetStream,South,Smartphone SE,Mobile,13,299.99,10,2022-01-25,2022-01-31,Eve Davis,Partner,False,3
+ORD-00026,CUST-076,JetStream,South,Smartwatch,Mobile,14,,0,2022-01-26,2022-02-02,Alice Johnson,Partner,False,5
+ORD-00027,CUST-058,CloudNine,East,Smartphone X,Computers,7,2499.99,0,2022-01-27,2022-02-01,Carol White,Online,False,5
+ORD-00028,CUST-022,JetStream,North,Tablet Max,Accessories,12,2499.99,10,2022-01-28,2022-01-31,Alice Johnson,Partner,False,5
+ORD-00029,CUST-089,Acme Corp,North,Headphones,Wearables,9,599.99,20,2022-01-29,2022-02-04,Alice Johnson,Online,False,3
+ORD-00030,CUST-049,HorizonAI,East,Keyboard,Wearables,5,149.99,15,2022-01-30,2022-02-03,Bob Smith,In-Store,False,5
+ORD-00031,CUST-091,EagleEye,South,Smartphone X,Computers,8,999.99,10,2022-01-31,2022-02-04,Carol White,Direct Sales,False,3
+ORD-00032,CUST-059,DeltaLogic,South,Smartphone SE,Wearables,10,599.99,0,2022-02-01,2022-02-08,Alice Johnson,Partner,False,2
+ORD-00033,CUST-042,HorizonAI,West,Monitor,Wearables,10,2499.99,10,2022-02-02,2022-02-03,Dave Brown,Direct Sales,True,5
+ORD-00034,CUST-092,GlobalEdge,West,Smartwatch,Wearables,8,199.99,0,2022-02-03,2022-02-10,Alice Johnson,Direct Sales,False,4
+ORD-00035,CUST-060,BrightTech,North,Laptop Pro,Wearables,1,599.99,25,2022-02-04,2022-02-07,Dave Brown,Partner,False,5
+ORD-00036,CUST-080,Acme Corp,,Smartphone SE,Accessories,12,199.99,20,2022-02-05,2022-02-11,Bob Smith,Partner,False,4
+ORD-00037,CUST-015,DeltaLogic,East,Smartphone SE,Wearables,5,149.99,15,2022-02-06,2022-02-12,Alice Johnson,In-Store,True,3
+ORD-00038,CUST-062,HorizonAI,West,Monitor,Mobile,3,999.99,25,2022-02-07,2022-02-09,Eve Davis,Online,False,5
+ORD-00039,CUST-062,BrightTech,East,Tablet Mini,Computers,1,199.99,0,2022-02-08,2022-02-09,Bob Smith,Online,False,4
+ORD-00040,CUST-047,CloudNine,UNKNOWN,Monitor,Accessories,4,2499.99,15,2022-02-09,2022-02-10,Dave Brown,Direct Sales,,3
+ORD-00041,CUST-062,Acme Corp,West,Tablet Mini,Wearables,8,149.99,5,2022-02-10,2022-02-16,Bob Smith,Partner,False,5
+ORD-00042,CUST-051,Acme Corp,West,Tablet Mini,Accessories,3,299.99,25,2022-02-11,2022-02-17,Alice Johnson,In-Store,False,4
+ORD-00043,CUST-055,CloudNine,West,Tablet Max,Wearables,10,149.99,0,2022-02-12,2022-02-17,Carol White,In-Store,False,5
+ORD-00044,CUST-064,EagleEye,North,Tablet Max,Mobile,2,2499.99,15,2022-02-13,2022-02-18,Carol White,In-Store,False,4
+ORD-00045,CUST-003,CloudNine,North,Laptop Lite,Computers,11,1299.99,20,2022-02-14,2022-02-19,Dave Brown,In-Store,False,5
+ORD-00046,CUST-051,Acme Corp,West,Headphones,Wearables,9,599.99,0,2022-02-15,2022-02-16,Dave Brown,In-Store,False,5
+ORD-00047,CUST-007,Acme Corp,East,Headphones,Wearables,10,599.99,5,2022-02-16,2022-02-18,Carol White,Online,False,5
+ORD-00048,CUST-021,HorizonAI,West,Laptop Pro,Wearables,5,999.99,15,2022-02-17,2022-02-21,Dave Brown,Online,False,2
+ORD-00049,CUST-073,JetStream,North,Headphones,Wearables,14,599.99,5,2022-02-18,2022-02-23,Bob Smith,Online,False,5
+ORD-00050,CUST-039,BrightTech,East,Tablet Max,Computers,7,1299.99,0,2022-02-19,2022-02-21,Eve Davis,Partner,False,5
+ORD-00051,CUST-018,CloudNine,South,Laptop Lite,Computers,11,599.99,0,2022-02-20,2022-02-27,Eve Davis,Direct Sales,False,5
+ORD-00052,CUST-004,BrightTech,East,Laptop Lite,Mobile,11,199.99,0,2022-02-21,2022-02-24,Bob Smith,In-Store,False,4
+ORD-00053,CUST-089,CloudNine,East,Tablet Mini,Computers,2,399.99,20,2022-02-22,2022-02-27,Eve Davis,Partner,,5
+ORD-00054,CUST-060,GlobalEdge,East,Monitor,Wearables,9,2499.99,10,2022-02-23,2022-03-02,Alice Johnson,In-Store,False,5
+ORD-00055,CUST-014,Acme Corp,East,Laptop Pro,Mobile,13,599.99,0,2022-02-24,2022-02-28,Bob Smith,Online,False,2
+ORD-00056,CUST-009,JetStream,East,Tablet Mini,Mobile,9,2499.99,5,2022-02-25,2022-02-28,Dave Brown,Partner,False,4
+ORD-00057,CUST-090,HorizonAI,South,Monitor,Mobile,4,,5,2022-02-26,2022-03-01,Bob Smith,Online,,5
+ORD-00058,CUST-053,JetStream,West,Headphones,Wearables,4,1299.99,0,2022-02-27,2022-03-03,Carol White,In-Store,False,1
+ORD-00059,CUST-002,JetStream,North,Tablet Mini,Accessories,6,299.99,5,2022-02-28,2022-03-05,Dave Brown,In-Store,False,
+ORD-00060,CUST-084,JetStream,East,Smartphone X,Wearables,10,,5,2022-03-01,2022-03-02,Carol White,Direct Sales,False,5
+ORD-00061,CUST-092,BrightTech,East,Headphones,Computers,10,199.99,5,2022-03-02,2022-03-06,Dave Brown,In-Store,False,5
+ORD-00062,CUST-060,CloudNine,West,Monitor,Computers,10,299.99,15,2022-03-03,2022-03-07,Eve Davis,Online,False,3
+ORD-00063,CUST-071,InnovateCo,East,Laptop Pro,Wearables,6,199.99,0,2022-03-04,2022-03-08,Bob Smith,In-Store,False,3
+ORD-00064,CUST-044,GlobalEdge,West,Monitor,Wearables,12,,10,2022-03-05,2022-03-08,Alice Johnson,Direct Sales,False,
+ORD-00065,CUST-008,DeltaLogic,UNKNOWN,Tablet Mini,Mobile,1,299.99,10,2022-03-06,2022-03-08,Dave Brown,Direct Sales,False,4
+ORD-00066,CUST-047,JetStream,South,Tablet Mini,Wearables,14,399.99,10,2022-03-07,2022-03-14,Dave Brown,Online,False,5
+ORD-00067,CUST-035,EagleEye,North,Smartphone SE,Mobile,14,299.99,10,2022-03-08,2022-03-09,Carol White,Partner,False,4
+ORD-00068,CUST-078,BrightTech,South,Laptop Pro,Computers,9,399.99,10,2022-03-09,2022-03-14,Eve Davis,In-Store,False,3
+ORD-00069,CUST-081,HorizonAI,South,Keyboard,Mobile,2,299.99,20,2022-03-10,2022-03-15,Carol White,Direct Sales,False,1
+ORD-00070,CUST-036,DeltaLogic,East,Headphones,Wearables,5,599.99,10,2022-03-11,2022-03-18,Carol White,In-Store,False,4
+ORD-00071,CUST-050,InnovateCo,,Laptop Lite,Computers,9,999.99,10,2022-03-12,2022-03-14,Eve Davis,In-Store,False,
+ORD-00072,CUST-004,EagleEye,North,Laptop Pro,Accessories,4,1299.99,20,2022-03-13,2022-03-17,Alice Johnson,Partner,False,4
+ORD-00073,CUST-002,InnovateCo,North,Laptop Lite,Mobile,11,2499.99,10,2022-03-14,2022-03-15,Carol White,Direct Sales,False,4
+ORD-00074,CUST-006,DeltaLogic,South,Laptop Pro,Computers,3,999.99,0,2022-03-15,2022-03-20,Carol White,In-Store,False,4
+ORD-00075,CUST-054,JetStream,West,Laptop Pro,Mobile,7,2499.99,0,2022-03-16,2022-03-23,Dave Brown,Direct Sales,False,4
+ORD-00076,CUST-004,EagleEye,East,Monitor,Computers,6,399.99,0,2022-03-17,2022-03-23,Eve Davis,Online,False,4
+ORD-00077,CUST-054,InnovateCo,North,Laptop Pro,Computers,8,999.99,25,2022-03-18,2022-03-25,Bob Smith,Online,False,5
+ORD-00078,CUST-093,HorizonAI,,Smartphone SE,Mobile,3,199.99,15,2022-03-19,2022-03-24,Alice Johnson,In-Store,True,4
+ORD-00079,CUST-063,CloudNine,West,Keyboard,Accessories,5,2499.99,25,2022-03-20,2022-03-24,Alice Johnson,Direct Sales,False,4
+ORD-00080,CUST-018,Acme Corp,North,Tablet Mini,Computers,10,999.99,10,2022-03-21,2022-03-27,Eve Davis,In-Store,False,3
+ORD-00081,CUST-090,CloudNine,West,Smartwatch,Computers,4,299.99,5,2022-03-22,2022-03-24,Dave Brown,Direct Sales,False,
+ORD-00082,CUST-044,DeltaLogic,West,Laptop Lite,Computers,13,399.99,0,2022-03-23,2022-03-24,Dave Brown,Direct Sales,False,3
+ORD-00083,CUST-034,BrightTech,South,Tablet Mini,Accessories,4,2499.99,10,2022-03-24,2022-03-26,Eve Davis,Partner,False,2
+ORD-00084,CUST-074,Acme Corp,North,Smartwatch,Accessories,4,149.99,10,2022-03-25,2022-03-27,Dave Brown,Partner,False,5
+ORD-00085,CUST-062,GlobalEdge,North,Keyboard,Wearables,10,149.99,,2022-03-26,2022-04-02,Alice Johnson,Partner,,5
+ORD-00086,CUST-100,HorizonAI,North,Keyboard,Mobile,8,599.99,0,2022-03-27,2022-03-28,Alice Johnson,In-Store,False,4
+ORD-00087,CUST-014,GlobalEdge,West,Laptop Lite,Accessories,6,599.99,10,2022-03-28,2022-03-29,Bob Smith,Partner,False,4
+ORD-00088,CUST-095,EagleEye,,Laptop Lite,Mobile,3,,10,2022-03-29,2022-04-03,Eve Davis,Partner,False,5
+ORD-00089,CUST-048,Acme Corp,North,Keyboard,Wearables,10,299.99,10,2022-03-30,2022-04-04,Carol White,Online,False,3
+ORD-00090,CUST-015,GlobalEdge,North,Smartwatch,Mobile,5,399.99,10,2022-03-31,2022-04-01,Carol White,Direct Sales,False,5
+ORD-00091,CUST-072,GlobalEdge,North,Laptop Pro,Accessories,6,199.99,15,2022-04-01,2022-04-07,Bob Smith,Direct Sales,True,5
+ORD-00092,CUST-078,InnovateCo,North,Headphones,Mobile,5,999.99,0,2022-04-02,2022-04-05,Bob Smith,Partner,False,4
+ORD-00093,CUST-087,CloudNine,West,Smartphone X,Accessories,6,599.99,15,2022-04-03,2022-04-08,Dave Brown,Direct Sales,False,4
+ORD-00094,CUST-062,InnovateCo,South,Tablet Mini,Mobile,8,999.99,10,2022-04-04,2022-04-07,Bob Smith,Online,False,3
+ORD-00095,CUST-040,Acme Corp,South,Monitor,Accessories,7,199.99,25,2022-04-05,2022-04-12,Bob Smith,Online,False,5
+ORD-00096,CUST-085,Acme Corp,North,Tablet Mini,Accessories,5,399.99,20,2022-04-06,2022-04-12,Carol White,Partner,False,4
+ORD-00097,CUST-080,DeltaLogic,East,Monitor,Mobile,10,299.99,5,2022-04-07,2022-04-08,Dave Brown,Online,False,4
+ORD-00098,CUST-082,InnovateCo,South,Smartwatch,Wearables,6,999.99,0,2022-04-08,2022-04-14,Bob Smith,Direct Sales,True,5
+ORD-00099,CUST-053,FusionWorks,West,Monitor,Computers,14,999.99,,2022-04-09,2022-04-14,Bob Smith,In-Store,False,
+ORD-00100,CUST-024,CloudNine,North,Laptop Lite,Wearables,4,399.99,10,2022-04-10,2022-04-12,Dave Brown,Direct Sales,False,4
+ORD-00101,CUST-026,Acme Corp,West,Headphones,Mobile,12,299.99,25,2022-04-11,2022-04-18,Eve Davis,In-Store,False,5
+ORD-00102,CUST-089,DeltaLogic,East,Headphones,Wearables,9,399.99,0,2022-04-12,2022-04-13,Dave Brown,Partner,False,4
+ORD-00103,CUST-060,InnovateCo,North,Laptop Lite,Accessories,13,2499.99,10,2022-04-13,2022-04-17,Carol White,In-Store,False,2
+ORD-00104,CUST-041,CloudNine,South,Smartphone SE,Computers,4,149.99,20,2022-04-14,2022-04-21,Eve Davis,Online,False,3
+ORD-00105,CUST-029,InnovateCo,,Smartwatch,Mobile,1,2499.99,25,2022-04-15,2022-04-18,Alice Johnson,Direct Sales,False,4
+ORD-00106,CUST-015,GlobalEdge,,Smartphone SE,Mobile,7,,5,2022-04-16,2022-04-22,Dave Brown,In-Store,False,3
+ORD-00107,CUST-045,DeltaLogic,East,Smartphone SE,Mobile,7,2499.99,15,2022-04-17,2022-04-18,Carol White,Direct Sales,False,1
+ORD-00108,CUST-065,CloudNine,East,Tablet Mini,Computers,4,299.99,10,2022-04-18,2022-04-25,Eve Davis,Partner,False,5
+ORD-00109,CUST-089,JetStream,,Keyboard,Accessories,13,1299.99,0,2022-04-19,2022-04-25,Dave Brown,Partner,False,5
+ORD-00110,CUST-071,EagleEye,East,Tablet Mini,Mobile,14,149.99,10,2022-04-20,2022-04-21,Bob Smith,Online,False,5
+ORD-00111,CUST-009,EagleEye,North,Keyboard,Wearables,3,399.99,10,2022-04-21,2022-04-26,Dave Brown,Partner,False,3
+ORD-00112,CUST-088,CloudNine,,Smartphone X,Mobile,8,1299.99,25,2022-04-22,2022-04-29,Alice Johnson,In-Store,False,2
+ORD-00113,CUST-001,InnovateCo,North,Monitor,Mobile,5,599.99,5,2022-04-23,2022-04-28,Dave Brown,Partner,False,2
+ORD-00114,CUST-008,DeltaLogic,East,Keyboard,Mobile,10,1299.99,0,2022-04-24,2022-05-01,Eve Davis,Online,False,5
+ORD-00115,CUST-088,EagleEye,North,Laptop Lite,Mobile,7,1299.99,0,2022-04-25,2022-04-30,Eve Davis,Direct Sales,False,5
+ORD-00116,CUST-063,DeltaLogic,North,Tablet Mini,Accessories,4,149.99,5,2022-04-26,2022-05-02,Dave Brown,Direct Sales,True,4
+ORD-00117,CUST-011,EagleEye,South,Smartwatch,Wearables,4,599.99,5,2022-04-27,2022-05-01,Eve Davis,Partner,False,2
+ORD-00118,CUST-081,GlobalEdge,West,Monitor,Accessories,8,0,15,2022-04-28,2022-05-05,Bob Smith,In-Store,True,4
+ORD-00119,CUST-008,InnovateCo,South,Smartphone X,Wearables,14,299.99,5,2022-04-29,2022-05-06,Dave Brown,Online,False,4
+ORD-00120,CUST-035,GlobalEdge,North,Keyboard,Mobile,8,299.99,25,2022-04-30,2022-05-05,Bob Smith,In-Store,False,4
+ORD-00121,CUST-035,EagleEye,North,Smartphone X,Computers,2,1299.99,,2022-05-01,2022-05-02,Bob Smith,Online,False,5
+ORD-00122,CUST-033,JetStream,East,Smartwatch,Accessories,14,999.99,10,2022-05-02,2022-05-09,Carol White,Partner,False,5
+ORD-00123,CUST-005,JetStream,UNKNOWN,Smartphone SE,Computers,2,199.99,25,2022-05-03,2022-05-08,Dave Brown,Online,False,2
+ORD-00124,CUST-041,GlobalEdge,East,Headphones,Accessories,3,,15,2022-05-04,2022-05-06,Eve Davis,Online,False,1
+ORD-00125,CUST-028,JetStream,East,Smartwatch,Mobile,12,999.99,10,2022-05-05,2022-05-10,Bob Smith,Partner,False,
+ORD-00126,CUST-007,EagleEye,,Tablet Max,Accessories,12,999.99,0,2022-05-06,2022-05-12,Carol White,In-Store,False,3
+ORD-00127,CUST-073,CloudNine,East,Smartwatch,Mobile,3,399.99,5,2022-05-07,2022-05-11,Dave Brown,Partner,False,2
+ORD-00128,CUST-072,GlobalEdge,North,Smartphone X,Accessories,1,,10,2022-05-08,2022-05-10,Dave Brown,Online,False,3
+ORD-00129,CUST-012,BrightTech,South,Laptop Lite,Mobile,14,999.99,20,2022-05-09,2022-05-15,Alice Johnson,Partner,False,1
+ORD-00130,CUST-034,InnovateCo,South,Tablet Mini,Mobile,3,599.99,5,2022-05-10,2022-05-16,Alice Johnson,Online,False,4
+ORD-00131,CUST-033,JetStream,South,Laptop Lite,Wearables,6,149.99,25,2022-05-11,2022-05-17,Bob Smith,Partner,,5
+ORD-00132,CUST-048,JetStream,South,Smartphone X,Mobile,8,2499.99,10,2022-05-12,2022-05-13,Alice Johnson,Direct Sales,False,4
+ORD-00133,CUST-023,Acme Corp,West,Tablet Mini,Wearables,13,2499.99,0,2022-05-13,2022-05-19,Bob Smith,Direct Sales,True,4
+ORD-00134,CUST-062,FusionWorks,South,Tablet Max,Mobile,12,299.99,,2022-05-14,2022-05-15,Eve Davis,Partner,False,5
+ORD-00135,CUST-088,GlobalEdge,East,Headphones,Computers,14,149.99,10,2022-05-15,2022-05-21,Bob Smith,In-Store,False,4
+ORD-00136,CUST-037,HorizonAI,East,Monitor,Mobile,10,999.99,5,2022-05-16,2022-05-19,Alice Johnson,Online,False,5
+ORD-00137,CUST-099,JetStream,South,Smartphone X,Computers,6,399.99,10,2022-05-17,2022-05-19,Eve Davis,Direct Sales,False,5
+ORD-00138,CUST-044,InnovateCo,West,Keyboard,Computers,5,399.99,0,2022-05-18,2022-05-21,Alice Johnson,In-Store,,1
+ORD-00139,CUST-086,BrightTech,East,Smartphone X,Mobile,-1,399.99,10,2022-05-19,2022-05-25,Bob Smith,Online,False,5
+ORD-00140,CUST-091,JetStream,South,Smartphone X,Computers,3,299.99,5,2022-05-20,2022-05-22,Carol White,Direct Sales,False,4
+ORD-00141,CUST-035,BrightTech,West,Tablet Mini,Wearables,13,399.99,5,2022-05-21,2022-05-23,Dave Brown,Direct Sales,False,
+ORD-00142,CUST-065,EagleEye,East,Laptop Pro,Accessories,4,599.99,,2022-05-22,2022-05-29,Alice Johnson,Partner,False,4
+ORD-00143,CUST-099,EagleEye,East,Smartwatch,Mobile,14,399.99,10,2022-05-23,2022-05-27,Bob Smith,Online,False,
+ORD-00144,CUST-047,FusionWorks,East,Laptop Pro,Computers,7,399.99,0,2022-05-24,2022-05-27,Eve Davis,In-Store,False,5
+ORD-00145,CUST-078,CloudNine,East,Tablet Max,Mobile,1,399.99,5,2022-05-25,2022-05-29,Alice Johnson,In-Store,False,3
+ORD-00146,CUST-003,HorizonAI,West,Keyboard,Wearables,7,149.99,25,2022-05-26,2022-05-28,Alice Johnson,In-Store,False,4
+ORD-00147,CUST-001,Acme Corp,North,Headphones,Mobile,1,2499.99,0,2022-05-27,2022-05-28,Dave Brown,Online,False,
+ORD-00148,CUST-005,FusionWorks,South,Smartphone SE,Mobile,2,199.99,0,2022-05-28,2022-05-30,Bob Smith,In-Store,False,5
+ORD-00149,CUST-090,DeltaLogic,North,Tablet Max,Computers,4,199.99,0,2022-05-29,2022-06-02,Carol White,In-Store,True,2
+ORD-00150,CUST-014,Acme Corp,West,Smartphone SE,Wearables,1,999.99,0,2022-05-30,2022-06-02,Eve Davis,In-Store,False,5
+ORD-00151,CUST-027,GlobalEdge,South,Smartphone SE,Accessories,11,399.99,20,2022-05-31,2022-06-06,Bob Smith,Partner,False,4
+ORD-00152,CUST-009,InnovateCo,,Headphones,Accessories,12,599.99,15,2022-06-01,2022-06-08,Eve Davis,Partner,False,1
+ORD-00153,CUST-079,DeltaLogic,East,Laptop Lite,Computers,11,999.99,5,2022-06-02,2022-06-09,Alice Johnson,Online,,4
+ORD-00154,CUST-015,DeltaLogic,West,Laptop Pro,Mobile,11,599.99,10,2022-06-03,2022-06-10,Dave Brown,Online,False,3
+ORD-00155,CUST-090,FusionWorks,UNKNOWN,Smartphone X,Computers,9,2499.99,5,2022-06-04,2022-06-10,Dave Brown,In-Store,False,5
+ORD-00156,CUST-042,CloudNine,West,Monitor,Computers,12,999.99,,2022-06-05,2022-06-12,Carol White,Partner,False,4
+ORD-00157,CUST-077,FusionWorks,,Smartphone SE,Computers,6,199.99,,2022-06-06,2022-06-09,Dave Brown,Direct Sales,False,5
+ORD-00158,CUST-051,GlobalEdge,South,Keyboard,Mobile,13,999.99,5,2022-06-07,2022-06-13,Alice Johnson,Direct Sales,False,1
+ORD-00159,CUST-063,JetStream,East,Tablet Max,Wearables,1,199.99,20,2022-06-08,2022-06-15,Carol White,In-Store,False,4
+ORD-00160,CUST-096,JetStream,South,Laptop Lite,Computers,1,399.99,15,2022-06-09,2022-06-15,Bob Smith,In-Store,False,3
+ORD-00161,CUST-052,CloudNine,North,Smartphone SE,Mobile,6,149.99,5,2022-06-10,2022-06-14,Dave Brown,Partner,False,3
+ORD-00162,CUST-096,GlobalEdge,East,Laptop Lite,Wearables,4,399.99,0,2022-06-11,2022-06-14,Carol White,Partner,False,2
+ORD-00163,CUST-004,CloudNine,East,Laptop Lite,Computers,4,2499.99,5,2022-06-12,2022-06-17,Alice Johnson,Partner,False,3
+ORD-00164,CUST-094,BrightTech,South,Smartphone SE,Accessories,11,299.99,15,2022-06-13,2022-06-14,Eve Davis,Online,False,4
+ORD-00165,CUST-023,JetStream,East,Tablet Mini,Wearables,6,2499.99,,2022-06-14,2022-06-21,Eve Davis,Online,True,4
+ORD-00166,CUST-015,DeltaLogic,,Smartwatch,Computers,14,399.99,15,2022-06-15,2022-06-16,Alice Johnson,In-Store,False,4
+ORD-00167,CUST-043,HorizonAI,East,Keyboard,Wearables,12,149.99,20,2022-06-16,2022-06-22,Alice Johnson,Online,False,4
+ORD-00168,CUST-029,InnovateCo,West,Smartphone X,Wearables,11,1299.99,10,2022-06-17,2022-06-18,Eve Davis,Partner,False,5
+ORD-00169,CUST-036,GlobalEdge,West,Smartphone X,Wearables,7,599.99,20,2022-06-18,2022-06-21,Carol White,Partner,False,5
+ORD-00170,CUST-013,Acme Corp,UNKNOWN,Keyboard,Wearables,9,299.99,15,2022-06-19,2022-06-22,Eve Davis,Online,False,4
+ORD-00171,CUST-032,CloudNine,East,Tablet Mini,Wearables,10,149.99,5,2022-06-20,2022-06-22,Alice Johnson,Direct Sales,False,4
+ORD-00172,CUST-071,InnovateCo,West,Smartphone X,Wearables,5,299.99,10,2022-06-21,2022-06-28,Dave Brown,In-Store,False,2
+ORD-00173,CUST-059,Acme Corp,UNKNOWN,Laptop Lite,Computers,9,999.99,20,2022-06-22,2022-06-24,Bob Smith,Direct Sales,True,
+ORD-00174,CUST-086,InnovateCo,,Headphones,Accessories,4,299.99,0,2022-06-23,2022-06-24,Dave Brown,In-Store,False,2
+ORD-00175,CUST-028,HorizonAI,North,Tablet Max,Mobile,13,999.99,20,2022-06-24,2022-06-29,Dave Brown,Direct Sales,False,4
+ORD-00176,CUST-066,Acme Corp,South,Laptop Pro,Wearables,10,299.99,0,2022-06-25,2022-06-27,Alice Johnson,Online,False,4
+ORD-00177,CUST-042,FusionWorks,South,Smartphone X,Mobile,2,,10,2022-06-26,2022-06-28,Eve Davis,In-Store,False,4
+ORD-00178,CUST-045,EagleEye,North,Keyboard,Computers,3,299.99,20,2022-06-27,2022-06-30,Carol White,In-Store,False,3
+ORD-00179,CUST-062,FusionWorks,East,Headphones,Wearables,13,149.99,0,2022-06-28,2022-07-03,Dave Brown,In-Store,False,5
+ORD-00180,CUST-057,JetStream,West,Smartphone SE,Accessories,11,0,0,2022-06-29,2022-07-05,Eve Davis,Partner,False,2
+ORD-00181,CUST-006,EagleEye,West,Smartwatch,Mobile,1,299.99,5,2022-06-30,2022-07-01,Carol White,Partner,False,5
+ORD-00182,CUST-028,FusionWorks,North,Keyboard,Wearables,14,199.99,25,2022-07-01,2022-07-03,Dave Brown,Direct Sales,False,2
+ORD-00183,CUST-028,EagleEye,,Laptop Lite,Computers,14,2499.99,0,2022-07-02,2022-07-07,Carol White,Online,False,2
+ORD-00184,CUST-044,EagleEye,East,Smartwatch,Accessories,6,149.99,25,2022-07-03,2022-07-10,Eve Davis,Partner,False,5
+ORD-00185,CUST-084,DeltaLogic,West,Tablet Max,Mobile,13,999.99,0,2022-07-04,2022-07-09,Bob Smith,In-Store,False,3
+ORD-00186,CUST-030,CloudNine,,Tablet Max,Mobile,6,299.99,,2022-07-05,2022-07-06,Eve Davis,Partner,False,5
+ORD-00187,CUST-062,CloudNine,East,Tablet Mini,Wearables,1,199.99,,2022-07-06,2022-07-11,Alice Johnson,Online,False,4
+ORD-00188,CUST-075,DeltaLogic,South,Monitor,Accessories,11,299.99,5,2022-07-07,2022-07-12,Carol White,Partner,False,2
+ORD-00189,CUST-092,InnovateCo,West,Tablet Mini,Accessories,13,1299.99,10,2022-07-08,2022-07-13,Bob Smith,In-Store,False,
+ORD-00190,CUST-089,BrightTech,South,Headphones,Accessories,3,399.99,5,2022-07-09,2022-07-16,Carol White,Direct Sales,False,3
+ORD-00191,CUST-062,InnovateCo,North,Smartwatch,Accessories,5,399.99,10,2022-07-10,2022-07-12,Carol White,In-Store,False,5
+ORD-00192,CUST-097,Acme Corp,West,Monitor,Computers,3,149.99,0,2022-07-11,2022-07-12,Dave Brown,Online,False,3
+ORD-00193,CUST-001,Acme Corp,South,Smartphone SE,Accessories,10,599.99,0,2022-07-12,2022-07-19,Alice Johnson,Direct Sales,False,5
+ORD-00194,CUST-027,EagleEye,West,Laptop Lite,Mobile,3,599.99,0,2022-07-13,2022-07-18,Carol White,Partner,False,1
+ORD-00195,CUST-062,FusionWorks,South,Smartwatch,Mobile,14,299.99,5,2022-07-14,2022-07-19,Eve Davis,Partner,False,4
+ORD-00196,CUST-077,FusionWorks,,Tablet Mini,Computers,10,599.99,0,2022-07-15,2022-07-17,Eve Davis,Partner,,5
+ORD-00197,CUST-003,CloudNine,North,Laptop Pro,Mobile,3,299.99,10,2022-07-16,2022-07-17,Dave Brown,Direct Sales,False,
+ORD-00198,CUST-070,GlobalEdge,UNKNOWN,Monitor,Mobile,5,299.99,,2022-07-17,2022-07-20,Alice Johnson,In-Store,False,5
+ORD-00199,CUST-072,InnovateCo,West,Monitor,Accessories,13,149.99,5,2022-07-18,2022-07-25,Alice Johnson,Direct Sales,True,5
+ORD-00200,CUST-027,JetStream,North,Laptop Lite,Mobile,5,399.99,10,2022-07-19,2022-07-21,Eve Davis,Direct Sales,False,5
+ORD-00201,CUST-009,HorizonAI,East,Smartphone X,Computers,4,399.99,5,2022-07-20,2022-07-21,Bob Smith,Online,False,3
+ORD-00202,CUST-062,FusionWorks,UNKNOWN,Tablet Max,Accessories,1,1299.99,20,2022-07-21,2022-07-28,Dave Brown,Direct Sales,False,4
+ORD-00203,CUST-037,HorizonAI,East,Tablet Max,Wearables,5,1299.99,25,2022-07-22,2022-07-27,Dave Brown,Partner,False,4
+ORD-00204,CUST-097,EagleEye,North,Laptop Pro,Accessories,10,1299.99,20,2022-07-23,2022-07-24,Eve Davis,In-Store,False,4
+ORD-00205,CUST-051,HorizonAI,East,Headphones,Computers,5,1299.99,,2022-07-24,2022-07-25,Eve Davis,In-Store,False,4
+ORD-00206,CUST-044,JetStream,East,Headphones,Accessories,4,299.99,0,2022-07-25,2022-07-31,Bob Smith,In-Store,False,4
+ORD-00207,CUST-024,DeltaLogic,West,Smartphone SE,Accessories,6,299.99,20,2022-07-26,2022-07-27,Bob Smith,Partner,,3
+ORD-00208,CUST-079,JetStream,West,Smartwatch,Computers,10,399.99,15,2022-07-27,2022-07-30,Alice Johnson,Partner,True,5
+ORD-00209,CUST-059,HorizonAI,South,Keyboard,Accessories,4,199.99,0,2022-07-28,2022-07-29,Dave Brown,Partner,,3
+ORD-00210,CUST-032,JetStream,North,Smartphone X,Computers,14,,,2022-07-29,2022-08-01,Dave Brown,Partner,False,4
+ORD-00211,CUST-096,BrightTech,East,Tablet Mini,Computers,7,199.99,0,2022-07-30,2022-08-04,Eve Davis,Partner,False,4
+ORD-00212,CUST-088,EagleEye,South,Keyboard,Wearables,7,299.99,10,2022-07-31,2022-08-03,Alice Johnson,Direct Sales,False,5
+ORD-00213,CUST-052,InnovateCo,North,Keyboard,Mobile,2,399.99,0,2022-08-01,2022-08-08,Dave Brown,Partner,False,5
+ORD-00214,CUST-062,DeltaLogic,,Monitor,Mobile,3,599.99,5,2022-08-02,2022-08-07,Alice Johnson,Partner,False,5
+ORD-00215,CUST-058,FusionWorks,West,Laptop Pro,Accessories,1,1299.99,15,2022-08-03,2022-08-08,Alice Johnson,Partner,False,3
+ORD-00216,CUST-052,Acme Corp,West,Tablet Max,Accessories,8,599.99,10,2022-08-04,2022-08-07,Eve Davis,Partner,False,4
+ORD-00217,CUST-012,InnovateCo,West,Smartphone SE,Wearables,9,149.99,5,2022-08-05,2022-08-07,Alice Johnson,In-Store,True,2
+ORD-00218,CUST-039,Acme Corp,East,Headphones,Wearables,4,199.99,5,2022-08-06,2022-08-10,Bob Smith,Partner,False,4
+ORD-00219,CUST-002,EagleEye,West,Laptop Pro,Wearables,6,999.99,20,2022-08-07,2022-08-08,Bob Smith,Direct Sales,False,4
+ORD-00220,CUST-003,DeltaLogic,East,Monitor,Computers,9,399.99,0,2022-08-08,2022-08-14,Carol White,Direct Sales,False,1
+ORD-00221,CUST-056,CloudNine,North,Tablet Mini,Wearables,6,199.99,5,2022-08-09,2022-08-13,Eve Davis,Direct Sales,False,3
+ORD-00222,CUST-081,FusionWorks,South,Smartphone SE,Wearables,14,2499.99,25,2022-08-10,2022-08-11,Carol White,Online,False,
+ORD-00223,CUST-059,BrightTech,East,Monitor,Accessories,12,599.99,20,2022-08-11,2022-08-12,Bob Smith,In-Store,True,
+ORD-00224,CUST-002,CloudNine,West,Tablet Max,Wearables,12,149.99,5,2022-08-12,2022-08-17,Carol White,Partner,False,4
+ORD-00225,CUST-002,EagleEye,North,Tablet Max,Computers,12,599.99,15,2022-08-13,2022-08-14,Eve Davis,Online,False,1
+ORD-00226,CUST-092,InnovateCo,North,Tablet Max,Computers,9,2499.99,20,2022-08-14,2022-08-20,Eve Davis,Partner,False,3
+ORD-00227,CUST-054,BrightTech,South,Laptop Pro,Accessories,4,399.99,25,2022-08-15,2022-08-16,Alice Johnson,Online,False,4
+ORD-00228,CUST-087,JetStream,South,Laptop Pro,Wearables,8,149.99,10,2022-08-16,2022-08-19,Dave Brown,Online,False,
+ORD-00229,CUST-096,HorizonAI,West,Headphones,Wearables,9,399.99,0,2022-08-17,2022-08-21,Alice Johnson,Direct Sales,False,3
+ORD-00230,CUST-097,BrightTech,South,Headphones,Computers,4,999.99,0,2022-08-18,2022-08-21,Eve Davis,Direct Sales,False,5
+ORD-00231,CUST-001,EagleEye,East,Tablet Mini,Wearables,5,599.99,0,2022-08-19,2022-08-25,Bob Smith,Online,False,2
+ORD-00232,CUST-019,GlobalEdge,East,Smartphone SE,Wearables,14,399.99,10,2022-08-20,2022-08-21,Bob Smith,Direct Sales,False,
+ORD-00233,CUST-002,HorizonAI,East,Laptop Lite,Wearables,8,399.99,0,2022-08-21,2022-08-28,Alice Johnson,Online,False,4
+ORD-00234,CUST-053,Acme Corp,West,Laptop Lite,Mobile,12,199.99,10,2022-08-22,2022-08-28,Eve Davis,In-Store,False,5
+ORD-00235,CUST-044,FusionWorks,South,Monitor,Accessories,10,1299.99,5,2022-08-23,2022-08-28,Bob Smith,Direct Sales,,4
+ORD-00236,CUST-090,Acme Corp,West,Tablet Max,Mobile,14,149.99,0,2022-08-24,2022-08-27,Eve Davis,Direct Sales,False,5
+ORD-00237,CUST-032,BrightTech,South,Smartphone SE,Accessories,6,2499.99,20,2022-08-25,2022-08-28,Bob Smith,Direct Sales,False,3
+ORD-00238,CUST-070,Acme Corp,South,Keyboard,Computers,12,599.99,5,2022-08-26,2022-08-28,Eve Davis,In-Store,False,3
+ORD-00239,CUST-032,EagleEye,UNKNOWN,Laptop Pro,Wearables,7,2499.99,0,2022-08-27,2022-08-28,Carol White,Online,False,
+ORD-00240,CUST-068,JetStream,North,Smartwatch,Accessories,3,599.99,20,2022-08-28,2022-09-02,Eve Davis,Partner,False,5
+ORD-00241,CUST-055,InnovateCo,North,Smartphone X,Mobile,7,399.99,0,2022-08-29,2022-09-05,Eve Davis,Direct Sales,False,5
+ORD-00242,CUST-075,FusionWorks,West,Tablet Mini,Wearables,12,399.99,15,2022-08-30,2022-09-02,Alice Johnson,Online,True,5
+ORD-00243,CUST-056,Acme Corp,North,Tablet Max,Computers,14,1299.99,15,2022-08-31,2022-09-03,Carol White,In-Store,False,5
+ORD-00244,CUST-017,Acme Corp,West,Tablet Max,Accessories,8,299.99,5,2022-09-01,2022-09-06,Dave Brown,Partner,False,2
+ORD-00245,CUST-038,BrightTech,South,Tablet Max,Accessories,10,2499.99,20,2022-09-02,2022-09-08,Alice Johnson,Direct Sales,False,4
+ORD-00246,CUST-024,InnovateCo,,Laptop Pro,Accessories,6,199.99,10,2022-09-03,2022-09-09,Dave Brown,In-Store,False,4
+ORD-00247,CUST-069,CloudNine,West,Laptop Pro,Wearables,10,149.99,5,2022-09-04,2022-09-05,Bob Smith,In-Store,False,5
+ORD-00248,CUST-098,Acme Corp,East,Smartphone X,Mobile,9,599.99,0,2022-09-05,2022-09-07,Dave Brown,Partner,False,4
+ORD-00249,CUST-070,EagleEye,,Keyboard,Mobile,13,399.99,0,2022-09-06,2022-09-09,Eve Davis,Online,False,3
+ORD-00250,CUST-086,GlobalEdge,South,Smartphone SE,Accessories,6,599.99,25,2022-09-07,2022-09-09,Dave Brown,Direct Sales,False,5
+ORD-00251,CUST-011,FusionWorks,UNKNOWN,Tablet Max,Computers,12,2499.99,5,2022-09-08,2022-09-14,Alice Johnson,Direct Sales,False,5
+ORD-00252,CUST-016,Acme Corp,North,Laptop Lite,Computers,9,599.99,10,2022-09-09,2022-09-15,Alice Johnson,Online,False,4
+ORD-00253,CUST-097,EagleEye,East,Headphones,Mobile,13,199.99,10,2022-09-10,2022-09-14,Dave Brown,Online,False,3
+ORD-00254,CUST-073,EagleEye,South,Laptop Lite,Computers,4,399.99,10,2022-09-11,2022-09-18,Alice Johnson,Online,True,3
+ORD-00255,CUST-059,FusionWorks,East,Monitor,Mobile,8,1299.99,0,2022-09-12,2022-09-13,Alice Johnson,Partner,False,3
+ORD-00256,CUST-070,CloudNine,North,Laptop Lite,Accessories,11,199.99,5,2022-09-13,2022-09-17,Dave Brown,Partner,False,4
+ORD-00257,CUST-080,EagleEye,West,Monitor,Mobile,4,399.99,15,2022-09-14,2022-09-21,Carol White,Direct Sales,False,5
+ORD-00258,CUST-093,GlobalEdge,West,Smartwatch,Mobile,2,199.99,0,2022-09-15,2022-09-19,Carol White,Partner,False,5
+ORD-00259,CUST-003,EagleEye,UNKNOWN,Headphones,Accessories,10,399.99,0,2022-09-16,2022-09-20,Bob Smith,In-Store,False,5
+ORD-00260,CUST-020,EagleEye,North,Laptop Lite,Computers,11,399.99,0,2022-09-17,2022-09-18,Alice Johnson,Direct Sales,False,4
+ORD-00261,CUST-059,EagleEye,East,Smartwatch,Mobile,9,1299.99,5,2022-09-18,2022-09-19,Dave Brown,Partner,False,5
+ORD-00262,CUST-036,JetStream,East,Tablet Mini,Mobile,-1,1299.99,25,2022-09-19,2022-09-24,Alice Johnson,Online,True,3
+ORD-00263,CUST-019,JetStream,South,Smartphone SE,Accessories,4,,0,2022-09-20,2022-09-22,Eve Davis,In-Store,True,4
+ORD-00264,CUST-090,CloudNine,South,Smartwatch,Computers,2,999.99,0,2022-09-21,2022-09-23,Alice Johnson,Online,False,5
+ORD-00265,CUST-067,Acme Corp,South,Smartphone SE,Mobile,1,,5,2022-09-22,2022-09-27,Alice Johnson,Direct Sales,False,3
+ORD-00266,CUST-019,EagleEye,West,Laptop Lite,Accessories,11,399.99,15,2022-09-23,2022-09-28,Carol White,Online,False,2
+ORD-00267,CUST-020,InnovateCo,East,Keyboard,Mobile,7,1299.99,10,2022-09-24,2022-09-30,Dave Brown,Partner,False,5
+ORD-00268,CUST-096,Acme Corp,East,Smartwatch,Wearables,6,1299.99,5,2022-09-25,2022-10-02,Alice Johnson,Partner,,4
+ORD-00269,CUST-071,CloudNine,North,Headphones,Accessories,2,999.99,15,2022-09-26,2022-09-30,Carol White,Direct Sales,True,5
+ORD-00270,CUST-052,DeltaLogic,North,Laptop Lite,Computers,8,149.99,10,2022-09-27,2022-10-02,Bob Smith,Online,False,1
+ORD-00271,CUST-033,Acme Corp,North,Tablet Max,Computers,11,599.99,25,2022-09-28,2022-10-01,Carol White,Direct Sales,True,5
+ORD-00272,CUST-040,Acme Corp,UNKNOWN,Laptop Pro,Computers,4,599.99,20,2022-09-29,2022-10-01,Carol White,Online,False,4
+ORD-00273,CUST-039,HorizonAI,North,Smartwatch,Computers,8,599.99,0,2022-09-30,2022-10-05,Carol White,In-Store,False,2
+ORD-00274,CUST-082,BrightTech,North,Headphones,Mobile,7,1299.99,0,2022-10-01,2022-10-04,Alice Johnson,Partner,False,5
+ORD-00275,CUST-001,HorizonAI,South,Tablet Mini,Mobile,5,399.99,0,2022-10-02,2022-10-05,Alice Johnson,Direct Sales,True,3
+ORD-00276,CUST-011,GlobalEdge,West,Tablet Max,Computers,10,1299.99,5,2022-10-03,2022-10-06,Bob Smith,In-Store,False,4
+ORD-00277,CUST-092,JetStream,UNKNOWN,Tablet Mini,Computers,10,199.99,,2022-10-04,2022-10-10,Eve Davis,In-Store,False,2
+ORD-00278,CUST-057,JetStream,West,Laptop Lite,Computers,12,599.99,5,2022-10-05,2022-10-11,Eve Davis,Direct Sales,False,3
+ORD-00279,CUST-089,BrightTech,West,Laptop Pro,Mobile,8,599.99,0,2022-10-06,2022-10-09,Eve Davis,Direct Sales,True,4
+ORD-00280,CUST-050,FusionWorks,East,Smartwatch,Computers,14,399.99,15,2022-10-07,2022-10-14,Bob Smith,In-Store,False,2
+ORD-00281,CUST-023,FusionWorks,North,Smartwatch,Computers,9,599.99,10,2022-10-08,2022-10-14,Eve Davis,Online,False,5
+ORD-00282,CUST-031,CloudNine,UNKNOWN,Keyboard,Wearables,5,,0,2022-10-09,2022-10-13,Eve Davis,In-Store,False,1
+ORD-00283,CUST-094,BrightTech,West,Keyboard,Wearables,10,399.99,5,2022-10-10,2022-10-13,Carol White,Direct Sales,False,4
+ORD-00284,CUST-042,Acme Corp,East,Laptop Lite,Computers,5,1299.99,5,2022-10-11,2022-10-15,Alice Johnson,In-Store,False,2
+ORD-00285,CUST-099,FusionWorks,West,Laptop Lite,Accessories,2,299.99,15,2022-10-12,2022-10-16,Alice Johnson,Online,False,4
+ORD-00286,CUST-007,EagleEye,West,Laptop Pro,Computers,5,1299.99,0,2022-10-13,2022-10-16,Carol White,Partner,,5
+ORD-00287,CUST-016,InnovateCo,East,Keyboard,Wearables,3,2499.99,0,2022-10-14,2022-10-16,Carol White,Partner,False,3
+ORD-00288,CUST-090,Acme Corp,UNKNOWN,Headphones,Accessories,7,,10,2022-10-15,2022-10-22,Carol White,In-Store,False,
+ORD-00289,CUST-060,GlobalEdge,,Headphones,Accessories,10,199.99,0,2022-10-16,2022-10-19,Alice Johnson,Online,False,3
+ORD-00290,CUST-002,EagleEye,East,Laptop Pro,Computers,5,,10,2022-10-17,2022-10-20,Eve Davis,Partner,False,5
+ORD-00291,CUST-001,EagleEye,West,Headphones,Wearables,8,399.99,5,2022-10-18,2022-10-24,Carol White,In-Store,False,4
+ORD-00292,CUST-048,BrightTech,North,Monitor,Wearables,1,399.99,5,2022-10-19,2022-10-22,Bob Smith,In-Store,True,5
+ORD-00293,CUST-012,CloudNine,West,Smartphone SE,Accessories,3,1299.99,25,2022-10-20,2022-10-22,Carol White,Online,True,4
+ORD-00294,CUST-069,GlobalEdge,North,Laptop Pro,Computers,3,999.99,10,2022-10-21,2022-10-27,Dave Brown,Direct Sales,False,4
+ORD-00295,CUST-037,FusionWorks,East,Laptop Pro,Mobile,9,199.99,0,2022-10-22,2022-10-23,Carol White,In-Store,False,3
+ORD-00296,CUST-032,BrightTech,UNKNOWN,Smartphone X,Mobile,5,599.99,10,2022-10-23,2022-10-24,Alice Johnson,Direct Sales,False,3
+ORD-00297,CUST-009,FusionWorks,East,Tablet Max,Wearables,12,199.99,15,2022-10-24,2022-10-28,Carol White,Direct Sales,False,5
+ORD-00298,CUST-099,BrightTech,East,Tablet Max,Mobile,9,299.99,15,2022-10-25,2022-11-01,Dave Brown,Partner,False,4
+ORD-00299,CUST-019,BrightTech,South,Monitor,Wearables,13,1299.99,0,2022-10-26,2022-10-30,Bob Smith,Direct Sales,True,4
+ORD-00300,CUST-048,BrightTech,North,Keyboard,Wearables,9,399.99,,2022-10-27,2022-10-29,Eve Davis,Online,False,5
+ORD-00301,CUST-080,CloudNine,West,Laptop Lite,Wearables,1,299.99,5,2022-10-28,2022-11-02,Carol White,Partner,False,4
+ORD-00302,CUST-003,BrightTech,North,Laptop Lite,Mobile,2,999.99,0,2022-10-29,2022-11-05,Dave Brown,Partner,False,
+ORD-00303,CUST-020,DeltaLogic,North,Tablet Mini,Wearables,5,199.99,0,2022-10-30,2022-10-31,Dave Brown,Partner,,5
+ORD-00304,CUST-024,InnovateCo,South,Monitor,Accessories,4,399.99,0,2022-10-31,2022-11-04,Bob Smith,In-Store,False,5
+ORD-00305,CUST-054,FusionWorks,West,Laptop Pro,Computers,10,1299.99,20,2022-11-01,2022-11-02,Alice Johnson,In-Store,False,5
+ORD-00306,CUST-033,Acme Corp,West,Monitor,Computers,9,399.99,0,2022-11-02,2022-11-04,Carol White,Direct Sales,False,1
+ORD-00307,CUST-024,HorizonAI,North,Monitor,Wearables,7,,0,2022-11-03,2022-11-05,Dave Brown,Partner,False,3
+ORD-00308,CUST-075,GlobalEdge,East,Monitor,Computers,6,1299.99,20,2022-11-04,2022-11-09,Bob Smith,Partner,False,4
+ORD-00309,CUST-072,JetStream,East,Tablet Max,Mobile,7,199.99,5,2022-11-05,2022-11-10,Eve Davis,Online,False,3
+ORD-00310,CUST-036,CloudNine,East,Monitor,Mobile,1,999.99,0,2022-11-06,2022-11-12,Dave Brown,Direct Sales,False,5
+ORD-00311,CUST-038,Acme Corp,West,Smartphone SE,Computers,1,199.99,0,2022-11-07,2022-11-14,Bob Smith,Online,False,5
+ORD-00312,CUST-084,EagleEye,South,Laptop Lite,Mobile,8,299.99,0,2022-11-08,2022-11-10,Alice Johnson,Direct Sales,False,4
+ORD-00313,CUST-099,DeltaLogic,East,Tablet Mini,Computers,13,599.99,0,2022-11-09,2022-11-13,Alice Johnson,Direct Sales,False,4
+ORD-00314,CUST-089,JetStream,East,Smartphone SE,Computers,13,599.99,10,2022-11-10,2022-11-11,Dave Brown,In-Store,False,
+ORD-00315,CUST-099,HorizonAI,,Tablet Mini,Computers,2,199.99,0,2022-11-11,2022-11-14,Dave Brown,In-Store,False,4
+ORD-00316,CUST-025,Acme Corp,East,Smartphone X,Wearables,12,399.99,0,2022-11-12,2022-11-17,Carol White,Online,True,4
+ORD-00317,CUST-093,JetStream,South,Tablet Mini,Computers,10,299.99,15,2022-11-13,2022-11-16,Bob Smith,Direct Sales,False,4
+ORD-00318,CUST-018,Acme Corp,South,Laptop Lite,Wearables,11,1299.99,10,2022-11-14,2022-11-18,Dave Brown,Partner,False,5
+ORD-00319,CUST-082,DeltaLogic,East,Laptop Lite,Computers,9,149.99,5,2022-11-15,2022-11-20,Carol White,In-Store,False,4
+ORD-00320,CUST-066,HorizonAI,West,Monitor,Computers,7,299.99,10,2022-11-16,2022-11-19,Carol White,Partner,,5
+ORD-00321,CUST-054,EagleEye,East,Smartwatch,Computers,6,149.99,5,2022-11-17,2022-11-24,Dave Brown,Online,False,5
+ORD-00322,CUST-035,BrightTech,West,Smartphone X,Mobile,1,1299.99,5,2022-11-18,2022-11-22,Alice Johnson,In-Store,False,4
+ORD-00323,CUST-080,FusionWorks,West,Laptop Pro,Wearables,1,399.99,10,2022-11-19,2022-11-20,Bob Smith,In-Store,False,4
+ORD-00324,CUST-061,EagleEye,East,Headphones,Wearables,2,399.99,5,2022-11-20,2022-11-27,Bob Smith,Direct Sales,False,5
+ORD-00325,CUST-041,BrightTech,South,Tablet Mini,Computers,6,599.99,25,2022-11-21,2022-11-25,Alice Johnson,Online,False,4
+ORD-00326,CUST-100,CloudNine,,Smartwatch,Computers,14,399.99,0,2022-11-22,2022-11-28,Dave Brown,Direct Sales,False,5
+ORD-00327,CUST-033,InnovateCo,South,Monitor,Mobile,6,2499.99,15,2022-11-23,2022-11-28,Bob Smith,In-Store,,
+ORD-00328,CUST-068,GlobalEdge,East,Tablet Max,Mobile,2,299.99,0,2022-11-24,2022-11-26,Dave Brown,Online,False,5
+ORD-00329,CUST-033,GlobalEdge,UNKNOWN,Laptop Pro,Mobile,1,399.99,15,2022-11-25,2022-11-26,Dave Brown,In-Store,False,5
+ORD-00330,CUST-014,FusionWorks,North,Keyboard,Wearables,10,2499.99,10,2022-11-26,2022-12-03,Carol White,Online,False,5
+ORD-00331,CUST-021,HorizonAI,North,Smartwatch,Wearables,5,299.99,20,2022-11-27,2022-12-04,Alice Johnson,In-Store,False,5
+ORD-00332,CUST-048,DeltaLogic,South,Tablet Max,Wearables,5,399.99,0,2022-11-28,2022-12-01,Dave Brown,Partner,False,4
+ORD-00333,CUST-020,HorizonAI,,Smartphone X,Computers,2,2499.99,10,2022-11-29,2022-12-04,Eve Davis,Partner,False,2
+ORD-00334,CUST-008,DeltaLogic,North,Monitor,Wearables,-1,,10,2022-11-30,2022-12-02,Alice Johnson,Direct Sales,False,4
+ORD-00335,CUST-007,HorizonAI,North,Laptop Pro,Accessories,9,149.99,15,2022-12-01,2022-12-05,Bob Smith,Partner,False,5
+ORD-00336,CUST-067,InnovateCo,North,Laptop Pro,Accessories,2,399.99,10,2022-12-02,2022-12-04,Carol White,In-Store,False,4
+ORD-00337,CUST-017,CloudNine,North,Laptop Pro,Mobile,10,1299.99,10,2022-12-03,2022-12-08,Bob Smith,In-Store,True,5
+ORD-00338,CUST-033,CloudNine,North,Smartphone X,Wearables,2,199.99,5,2022-12-04,2022-12-09,Bob Smith,Partner,False,4
+ORD-00339,CUST-048,BrightTech,East,Tablet Mini,Accessories,3,0,5,2022-12-05,2022-12-11,Alice Johnson,Direct Sales,False,5
+ORD-00340,CUST-076,JetStream,East,Keyboard,Mobile,13,599.99,5,2022-12-06,2022-12-12,Bob Smith,Partner,False,3
+ORD-00341,CUST-059,CloudNine,South,Smartphone X,Wearables,7,399.99,0,2022-12-07,2022-12-09,Dave Brown,Online,False,5
+ORD-00342,CUST-086,CloudNine,South,Headphones,Computers,6,399.99,,2022-12-08,2022-12-12,Bob Smith,Online,False,4
+ORD-00343,CUST-022,EagleEye,North,Keyboard,Accessories,12,399.99,15,2022-12-09,2022-12-11,Carol White,Online,False,3
+ORD-00344,CUST-030,EagleEye,South,Laptop Lite,Computers,8,599.99,,2022-12-10,2022-12-15,Carol White,Partner,,4
+ORD-00345,CUST-038,BrightTech,East,Monitor,Wearables,8,299.99,0,2022-12-11,2022-12-16,Eve Davis,Partner,False,5
+ORD-00346,CUST-051,JetStream,West,Smartphone X,Accessories,6,149.99,20,2022-12-12,2022-12-15,Carol White,Partner,False,4
+ORD-00347,CUST-054,FusionWorks,North,Tablet Max,Wearables,12,599.99,20,2022-12-13,2022-12-19,Bob Smith,Online,False,3
+ORD-00348,CUST-008,EagleEye,East,Keyboard,Computers,11,299.99,10,2022-12-14,2022-12-17,Carol White,Direct Sales,False,
+ORD-00349,CUST-027,FusionWorks,South,Headphones,Accessories,10,149.99,10,2022-12-15,2022-12-16,Alice Johnson,In-Store,False,5
+ORD-00350,CUST-027,Acme Corp,,Laptop Lite,Computers,3,399.99,5,2022-12-16,2022-12-21,Carol White,Partner,False,
+ORD-00351,CUST-098,EagleEye,West,Tablet Mini,Wearables,3,599.99,20,2022-12-17,2022-12-20,Dave Brown,Direct Sales,False,4
+ORD-00352,CUST-021,InnovateCo,East,Tablet Max,Wearables,1,299.99,10,2022-12-18,2022-12-20,Alice Johnson,In-Store,False,4
+ORD-00353,CUST-030,JetStream,South,Keyboard,Computers,7,399.99,0,2022-12-19,2022-12-25,Eve Davis,In-Store,,5
+ORD-00354,CUST-097,BrightTech,,Monitor,Accessories,5,199.99,5,2022-12-20,2022-12-26,Dave Brown,In-Store,False,4
+ORD-00355,CUST-028,Acme Corp,North,Tablet Max,Computers,4,399.99,25,2022-12-21,2022-12-25,Bob Smith,Direct Sales,False,5
+ORD-00356,CUST-064,JetStream,North,Laptop Lite,Wearables,10,,20,2022-12-22,2022-12-24,Bob Smith,Direct Sales,False,3
+ORD-00357,CUST-097,InnovateCo,South,Tablet Max,Computers,4,2499.99,,2022-12-23,2022-12-27,Bob Smith,Online,False,4
+ORD-00358,CUST-069,JetStream,North,Smartphone SE,Wearables,14,2499.99,10,2022-12-24,2022-12-27,Dave Brown,Direct Sales,False,2
+ORD-00359,CUST-061,InnovateCo,UNKNOWN,Smartwatch,Computers,4,299.99,0,2022-12-25,2023-01-01,Dave Brown,Direct Sales,False,3
+ORD-00360,CUST-048,InnovateCo,West,Tablet Mini,Accessories,6,999.99,0,2022-12-26,2022-12-27,Dave Brown,Direct Sales,False,1
+ORD-00361,CUST-019,FusionWorks,South,Laptop Lite,Accessories,8,999.99,0,2022-12-27,2022-12-29,Alice Johnson,In-Store,False,1
+ORD-00362,CUST-004,HorizonAI,East,Tablet Max,Computers,8,599.99,0,2022-12-28,2022-12-30,Alice Johnson,Partner,False,
+ORD-00363,CUST-035,Acme Corp,UNKNOWN,Smartwatch,Computers,5,999.99,5,2022-12-29,2022-12-31,Bob Smith,Online,False,3
+ORD-00364,CUST-064,JetStream,,Smartwatch,Accessories,6,2499.99,0,2022-12-30,2023-01-03,Carol White,Partner,False,5
+ORD-00365,CUST-049,DeltaLogic,East,Tablet Max,Wearables,4,,5,2022-12-31,2023-01-03,Bob Smith,Partner,False,5
+ORD-00366,CUST-017,Acme Corp,,Monitor,Accessories,12,999.99,25,2023-01-01,2023-01-03,Eve Davis,Direct Sales,False,4
+ORD-00367,CUST-044,HorizonAI,UNKNOWN,Smartphone SE,Wearables,14,299.99,5,2023-01-02,2023-01-09,Alice Johnson,Online,False,3
+ORD-00368,CUST-092,Acme Corp,West,Smartphone X,Computers,11,199.99,20,2023-01-03,2023-01-05,Dave Brown,Partner,True,5
+ORD-00369,CUST-030,CloudNine,North,Smartphone SE,Computers,13,149.99,10,2023-01-04,2023-01-10,Alice Johnson,Partner,False,5
+ORD-00370,CUST-093,DeltaLogic,South,Tablet Max,Wearables,9,2499.99,0,2023-01-05,2023-01-06,Dave Brown,Online,False,5
+ORD-00371,CUST-046,HorizonAI,West,Tablet Mini,Computers,8,149.99,5,2023-01-06,2023-01-12,Eve Davis,Direct Sales,False,5
+ORD-00372,CUST-006,FusionWorks,North,Smartphone X,Wearables,10,399.99,0,2023-01-07,2023-01-13,Eve Davis,Partner,False,
+ORD-00373,CUST-099,JetStream,West,Laptop Lite,Mobile,12,299.99,5,2023-01-08,2023-01-09,Alice Johnson,In-Store,False,4
+ORD-00374,CUST-037,GlobalEdge,North,Smartphone SE,Accessories,10,299.99,10,2023-01-09,2023-01-16,Dave Brown,Partner,False,4
+ORD-00375,CUST-024,HorizonAI,North,Tablet Max,Mobile,1,199.99,0,2023-01-10,2023-01-13,Eve Davis,In-Store,False,5
+ORD-00376,CUST-093,BrightTech,South,Smartphone SE,Wearables,2,599.99,0,2023-01-11,2023-01-17,Bob Smith,Direct Sales,False,2
+ORD-00377,CUST-046,JetStream,North,Smartphone X,Accessories,9,299.99,5,2023-01-12,2023-01-15,Bob Smith,Partner,False,5
+ORD-00378,CUST-053,HorizonAI,UNKNOWN,Headphones,Wearables,8,399.99,,2023-01-13,2023-01-19,Dave Brown,Online,False,2
+ORD-00379,CUST-095,CloudNine,West,Keyboard,Accessories,14,199.99,15,2023-01-14,2023-01-19,Alice Johnson,Online,False,4
+ORD-00380,CUST-099,GlobalEdge,West,Smartphone SE,Accessories,3,,15,2023-01-15,2023-01-16,Eve Davis,Partner,False,5
+ORD-00381,CUST-060,CloudNine,East,Laptop Lite,Accessories,8,999.99,0,2023-01-16,2023-01-22,Alice Johnson,Direct Sales,False,5
+ORD-00382,CUST-097,GlobalEdge,North,Laptop Lite,Accessories,12,,15,2023-01-17,2023-01-22,Bob Smith,Direct Sales,False,4
+ORD-00383,CUST-063,BrightTech,East,Laptop Pro,Wearables,1,1299.99,15,2023-01-18,2023-01-22,Eve Davis,Online,False,4
+ORD-00384,CUST-085,JetStream,East,Smartphone SE,Accessories,10,2499.99,10,2023-01-19,2023-01-24,Alice Johnson,Partner,False,5
+ORD-00385,CUST-032,FusionWorks,East,Keyboard,Accessories,4,2499.99,,2023-01-20,2023-01-22,Carol White,Direct Sales,True,4
+ORD-00386,CUST-087,CloudNine,South,Monitor,Mobile,3,599.99,5,2023-01-21,2023-01-27,Dave Brown,Online,False,5
+ORD-00387,CUST-033,CloudNine,East,Smartwatch,Computers,6,299.99,25,2023-01-22,2023-01-27,Dave Brown,In-Store,False,2
+ORD-00388,CUST-067,InnovateCo,East,Keyboard,Computers,7,2499.99,25,2023-01-23,2023-01-26,Carol White,Partner,False,5
+ORD-00389,CUST-018,GlobalEdge,UNKNOWN,Smartwatch,Mobile,4,2499.99,0,2023-01-24,2023-01-28,Bob Smith,In-Store,True,5
+ORD-00390,CUST-025,EagleEye,,Smartwatch,Mobile,7,149.99,5,2023-01-25,2023-02-01,Eve Davis,In-Store,False,3
+ORD-00391,CUST-095,JetStream,East,Headphones,Wearables,9,199.99,,2023-01-26,2023-02-01,Dave Brown,Direct Sales,False,4
+ORD-00392,CUST-054,GlobalEdge,East,Laptop Pro,Wearables,11,199.99,0,2023-01-27,2023-01-29,Carol White,Direct Sales,False,3
+ORD-00393,CUST-058,InnovateCo,West,Keyboard,Wearables,2,149.99,10,2023-01-28,2023-02-04,Carol White,Direct Sales,False,5
+ORD-00394,CUST-067,Acme Corp,North,Keyboard,Mobile,11,299.99,,2023-01-29,2023-02-03,Bob Smith,Partner,False,4
+ORD-00395,CUST-046,GlobalEdge,,Headphones,Mobile,3,1299.99,10,2023-01-30,2023-02-06,Bob Smith,In-Store,False,5
+ORD-00396,CUST-024,FusionWorks,,Smartphone SE,Accessories,5,599.99,0,2023-01-31,2023-02-07,Alice Johnson,Partner,False,3
+ORD-00397,CUST-032,JetStream,East,Smartphone SE,Wearables,3,299.99,10,2023-02-01,2023-02-05,Dave Brown,Direct Sales,False,3
+ORD-00398,CUST-047,InnovateCo,South,Smartphone SE,Wearables,11,999.99,0,2023-02-02,2023-02-09,Alice Johnson,In-Store,False,1
+ORD-00399,CUST-086,Acme Corp,South,Tablet Mini,Wearables,8,299.99,10,2023-02-03,2023-02-10,Carol White,Partner,False,4
+ORD-00400,CUST-023,DeltaLogic,East,Smartwatch,Computers,12,2499.99,0,2023-02-04,2023-02-10,Eve Davis,Partner,False,4
+ORD-00401,CUST-066,InnovateCo,North,Tablet Mini,Accessories,10,599.99,10,2023-02-05,2023-02-09,Eve Davis,Online,True,5
+ORD-00402,CUST-027,DeltaLogic,,Laptop Pro,Wearables,8,399.99,10,2023-02-06,2023-02-08,Bob Smith,Partner,False,5
+ORD-00403,CUST-002,JetStream,North,Headphones,Wearables,8,299.99,15,2023-02-07,2023-02-12,Eve Davis,Direct Sales,False,4
+ORD-00404,CUST-090,CloudNine,South,Keyboard,Wearables,12,399.99,10,2023-02-08,2023-02-12,Eve Davis,Partner,False,
+ORD-00405,CUST-017,InnovateCo,,Smartwatch,Computers,12,299.99,10,2023-02-09,2023-02-13,Eve Davis,In-Store,False,5
+ORD-00406,CUST-033,BrightTech,West,Tablet Mini,Computers,9,2499.99,10,2023-02-10,2023-02-11,Carol White,Partner,False,
+ORD-00407,CUST-009,DeltaLogic,South,Tablet Mini,Mobile,4,1299.99,0,2023-02-11,2023-02-15,Eve Davis,Online,False,4
+ORD-00408,CUST-043,FusionWorks,South,Tablet Max,Accessories,5,149.99,10,2023-02-12,2023-02-13,Eve Davis,In-Store,False,3
+ORD-00409,CUST-048,BrightTech,North,Tablet Mini,Mobile,5,299.99,0,2023-02-13,2023-02-18,Eve Davis,In-Store,False,2
+ORD-00410,CUST-039,HorizonAI,West,Monitor,Accessories,8,1299.99,25,2023-02-14,2023-02-21,Alice Johnson,Online,False,5
+ORD-00411,CUST-093,HorizonAI,North,Keyboard,Computers,7,199.99,0,2023-02-15,2023-02-21,Carol White,Direct Sales,False,2
+ORD-00412,CUST-042,Acme Corp,East,Monitor,Wearables,9,999.99,5,2023-02-16,2023-02-22,Bob Smith,In-Store,False,4
+ORD-00413,CUST-026,CloudNine,UNKNOWN,Keyboard,Mobile,14,399.99,10,2023-02-17,2023-02-22,Alice Johnson,Direct Sales,False,4
+ORD-00414,CUST-099,JetStream,North,Headphones,Wearables,8,1299.99,5,2023-02-18,2023-02-23,Dave Brown,In-Store,False,4
+ORD-00415,CUST-050,InnovateCo,,Keyboard,Mobile,2,299.99,0,2023-02-19,2023-02-22,Carol White,In-Store,False,5
+ORD-00416,CUST-025,EagleEye,UNKNOWN,Monitor,Computers,10,299.99,10,2023-02-20,2023-02-27,Carol White,Direct Sales,False,3
+ORD-00417,CUST-024,FusionWorks,North,Keyboard,Computers,12,999.99,10,2023-02-21,2023-02-26,Dave Brown,In-Store,False,4
+ORD-00418,CUST-013,DeltaLogic,,Headphones,Computers,4,149.99,15,2023-02-22,2023-02-26,Dave Brown,Direct Sales,False,5
+ORD-00419,CUST-060,JetStream,East,Headphones,Mobile,6,599.99,5,2023-02-23,2023-03-01,Dave Brown,Online,False,
+ORD-00420,CUST-007,BrightTech,,Laptop Pro,Accessories,12,999.99,10,2023-02-24,2023-02-26,Bob Smith,Direct Sales,False,5
+ORD-00421,CUST-057,HorizonAI,East,Keyboard,Mobile,2,1299.99,5,2023-02-25,2023-03-03,Eve Davis,Online,False,5
+ORD-00422,CUST-036,FusionWorks,West,Tablet Max,Accessories,7,999.99,10,2023-02-26,2023-02-27,Carol White,In-Store,False,5
+ORD-00423,CUST-045,EagleEye,East,Smartphone SE,Mobile,3,2499.99,10,2023-02-27,2023-03-05,Eve Davis,Direct Sales,False,5
+ORD-00424,CUST-020,InnovateCo,,Laptop Lite,Mobile,13,399.99,10,2023-02-28,2023-03-03,Eve Davis,In-Store,False,3
+ORD-00425,CUST-065,Acme Corp,West,Headphones,Computers,3,199.99,0,2023-03-01,2023-03-08,Dave Brown,Direct Sales,False,5
+ORD-00426,CUST-008,EagleEye,East,Smartphone X,Wearables,11,399.99,0,2023-03-02,2023-03-07,Bob Smith,Online,False,5
+ORD-00427,CUST-016,FusionWorks,,Smartphone SE,Wearables,2,999.99,0,2023-03-03,2023-03-10,Alice Johnson,Online,False,5
+ORD-00428,CUST-014,EagleEye,North,Smartwatch,Accessories,11,2499.99,0,2023-03-04,2023-03-09,Bob Smith,Direct Sales,True,4
+ORD-00429,CUST-076,FusionWorks,North,Keyboard,Wearables,8,999.99,5,2023-03-05,2023-03-11,Eve Davis,Online,False,4
+ORD-00430,CUST-087,FusionWorks,North,Monitor,Mobile,6,599.99,10,2023-03-06,2023-03-08,Bob Smith,In-Store,False,4
+ORD-00431,CUST-015,GlobalEdge,South,Laptop Lite,Mobile,1,199.99,0,2023-03-07,2023-03-09,Dave Brown,In-Store,False,4
+ORD-00432,CUST-092,DeltaLogic,North,Smartphone X,Computers,12,999.99,25,2023-03-08,2023-03-11,Alice Johnson,Partner,False,3
+ORD-00433,CUST-098,HorizonAI,,Smartphone SE,Computers,1,299.99,0,2023-03-09,2023-03-10,Dave Brown,Online,True,5
+ORD-00434,CUST-066,GlobalEdge,North,Keyboard,Wearables,7,149.99,15,2023-03-10,2023-03-16,Alice Johnson,In-Store,False,3
+ORD-00435,CUST-032,InnovateCo,West,Laptop Pro,Accessories,8,399.99,10,2023-03-11,2023-03-16,Eve Davis,Direct Sales,False,2
+ORD-00436,CUST-087,GlobalEdge,North,Smartwatch,Wearables,5,199.99,5,2023-03-12,2023-03-18,Alice Johnson,Online,False,4
+ORD-00437,CUST-063,CloudNine,,Laptop Lite,Wearables,12,399.99,0,2023-03-13,2023-03-16,Alice Johnson,In-Store,False,5
+ORD-00438,CUST-086,CloudNine,UNKNOWN,Tablet Max,Wearables,11,299.99,10,2023-03-14,2023-03-18,Alice Johnson,Online,False,4
+ORD-00439,CUST-051,HorizonAI,East,Laptop Pro,Wearables,5,399.99,5,2023-03-15,2023-03-19,Bob Smith,Direct Sales,False,3
+ORD-00440,CUST-025,EagleEye,,Smartphone X,Mobile,4,399.99,25,2023-03-16,2023-03-19,Bob Smith,In-Store,False,4
+ORD-00441,CUST-058,DeltaLogic,North,Laptop Lite,Accessories,14,999.99,10,2023-03-17,2023-03-22,Eve Davis,Partner,,4
+ORD-00442,CUST-063,HorizonAI,West,Laptop Pro,Mobile,6,599.99,25,2023-03-18,2023-03-25,Alice Johnson,Partner,False,
+ORD-00443,CUST-062,FusionWorks,North,Smartwatch,Accessories,14,999.99,0,2023-03-19,2023-03-22,Carol White,Online,False,5
+ORD-00444,CUST-022,BrightTech,,Tablet Max,Computers,6,399.99,15,2023-03-20,2023-03-25,Eve Davis,Direct Sales,False,4
+ORD-00445,CUST-058,DeltaLogic,North,Laptop Pro,Wearables,3,1299.99,10,2023-03-21,2023-03-23,Alice Johnson,In-Store,True,4
+ORD-00446,CUST-058,DeltaLogic,East,Tablet Mini,Mobile,9,149.99,15,2023-03-22,2023-03-25,Alice Johnson,Direct Sales,False,5
+ORD-00447,CUST-086,FusionWorks,West,Tablet Max,Accessories,12,299.99,0,2023-03-23,2023-03-28,Bob Smith,In-Store,False,1
+ORD-00448,CUST-049,FusionWorks,South,Smartphone X,Computers,11,599.99,10,2023-03-24,2023-03-27,Eve Davis,Online,False,4
+ORD-00449,CUST-052,Acme Corp,North,Smartwatch,Computers,14,1299.99,5,2023-03-25,2023-03-28,Alice Johnson,In-Store,False,4
+ORD-00450,CUST-042,HorizonAI,North,Keyboard,Wearables,7,149.99,15,2023-03-26,2023-04-02,Alice Johnson,Direct Sales,False,5
+ORD-00451,CUST-070,FusionWorks,South,Monitor,Accessories,1,199.99,5,2023-03-27,2023-04-03,Eve Davis,Direct Sales,False,1
+ORD-00452,CUST-015,CloudNine,East,Monitor,Mobile,13,299.99,25,2023-03-28,2023-04-02,Carol White,Online,False,4
+ORD-00453,CUST-054,InnovateCo,North,Monitor,Wearables,7,999.99,0,2023-03-29,2023-04-03,Eve Davis,Direct Sales,False,5
+ORD-00454,CUST-060,BrightTech,South,Laptop Lite,Mobile,5,599.99,20,2023-03-30,2023-03-31,Eve Davis,In-Store,False,4
+ORD-00455,CUST-097,HorizonAI,North,Smartphone X,Computers,5,1299.99,20,2023-03-31,2023-04-03,Carol White,Online,False,2
+ORD-00456,CUST-008,JetStream,West,Smartwatch,Mobile,14,999.99,20,2023-04-01,2023-04-05,Eve Davis,In-Store,False,
+ORD-00457,CUST-053,CloudNine,North,Tablet Max,Mobile,13,199.99,10,2023-04-02,2023-04-05,Alice Johnson,Direct Sales,False,4
+ORD-00458,CUST-060,EagleEye,South,Laptop Lite,Wearables,2,299.99,5,2023-04-03,2023-04-06,Eve Davis,Online,False,5
+ORD-00459,CUST-005,FusionWorks,North,Smartphone X,Mobile,4,399.99,,2023-04-04,2023-04-09,Carol White,In-Store,False,3
+ORD-00460,CUST-068,JetStream,South,Keyboard,Wearables,12,149.99,0,2023-04-05,2023-04-08,Dave Brown,Direct Sales,,4
+ORD-00461,CUST-006,FusionWorks,West,Tablet Mini,Computers,6,399.99,10,2023-04-06,2023-04-12,Eve Davis,Direct Sales,False,4
+ORD-00462,CUST-096,DeltaLogic,South,Smartwatch,Wearables,10,399.99,10,2023-04-07,2023-04-10,Bob Smith,Partner,False,2
+ORD-00463,CUST-094,CloudNine,North,Monitor,Wearables,11,599.99,15,2023-04-08,2023-04-14,Alice Johnson,Direct Sales,False,2
+ORD-00464,CUST-047,DeltaLogic,West,Laptop Pro,Accessories,7,149.99,0,2023-04-09,2023-04-16,Alice Johnson,In-Store,False,5
+ORD-00465,CUST-099,Acme Corp,West,Smartwatch,Mobile,11,1299.99,10,2023-04-10,2023-04-14,Bob Smith,Online,False,3
+ORD-00466,CUST-055,DeltaLogic,North,Headphones,Computers,5,149.99,20,2023-04-11,2023-04-16,Bob Smith,Partner,False,3
+ORD-00467,CUST-040,Acme Corp,West,Smartphone X,Wearables,9,199.99,0,2023-04-12,2023-04-15,Eve Davis,Direct Sales,,4
+ORD-00468,CUST-052,Acme Corp,,Smartphone SE,Computers,3,1299.99,25,2023-04-13,2023-04-19,Bob Smith,Direct Sales,False,5
+ORD-00469,CUST-016,JetStream,North,Keyboard,Accessories,1,399.99,0,2023-04-14,2023-04-20,Dave Brown,Direct Sales,False,2
+ORD-00470,CUST-013,FusionWorks,West,Tablet Mini,Mobile,4,149.99,5,2023-04-15,2023-04-22,Carol White,In-Store,False,4
+ORD-00471,CUST-030,EagleEye,West,Keyboard,Wearables,9,399.99,0,2023-04-16,2023-04-22,Bob Smith,Partner,False,2
+ORD-00472,CUST-019,DeltaLogic,East,Smartwatch,Mobile,4,149.99,0,2023-04-17,2023-04-19,Bob Smith,In-Store,False,1
+ORD-00473,CUST-017,CloudNine,North,Smartphone SE,Accessories,2,149.99,25,2023-04-18,2023-04-19,Dave Brown,Partner,False,2
+ORD-00474,CUST-063,Acme Corp,North,Headphones,Accessories,10,599.99,5,2023-04-19,2023-04-23,Alice Johnson,Online,False,5
+ORD-00475,CUST-019,FusionWorks,,Tablet Max,Computers,14,599.99,5,2023-04-20,2023-04-27,Alice Johnson,In-Store,False,2
+ORD-00476,CUST-092,BrightTech,UNKNOWN,Laptop Pro,Wearables,14,149.99,0,2023-04-21,2023-04-28,Eve Davis,In-Store,False,1
+ORD-00477,CUST-058,HorizonAI,West,Smartphone SE,Computers,5,299.99,10,2023-04-22,2023-04-25,Dave Brown,Online,False,4
+ORD-00478,CUST-055,JetStream,South,Smartphone X,Accessories,3,1299.99,10,2023-04-23,2023-04-25,Carol White,Partner,False,5
+ORD-00479,CUST-090,EagleEye,East,Monitor,Mobile,13,2499.99,5,2023-04-24,2023-04-27,Carol White,Direct Sales,False,3
+ORD-00480,CUST-090,GlobalEdge,East,Headphones,Computers,12,399.99,5,2023-04-25,2023-04-28,Dave Brown,Online,False,4
+ORD-00481,CUST-062,JetStream,South,Laptop Pro,Computers,13,149.99,25,2023-04-26,2023-05-01,Carol White,Direct Sales,False,1
+ORD-00482,CUST-023,BrightTech,North,Tablet Mini,Mobile,9,199.99,5,2023-04-27,2023-05-02,Alice Johnson,Direct Sales,False,4
+ORD-00483,CUST-009,HorizonAI,West,Monitor,Computers,4,299.99,5,2023-04-28,2023-05-03,Carol White,Online,False,4
+ORD-00484,CUST-012,BrightTech,South,Smartwatch,Mobile,6,1299.99,0,2023-04-29,2023-05-01,Carol White,Partner,False,4
+ORD-00485,CUST-001,DeltaLogic,West,Smartphone SE,Wearables,2,999.99,15,2023-04-30,2023-05-03,Dave Brown,Direct Sales,False,4
+ORD-00486,CUST-058,Acme Corp,South,Laptop Pro,Mobile,6,149.99,5,2023-05-01,2023-05-02,Dave Brown,Online,False,4
+ORD-00487,CUST-001,EagleEye,North,Laptop Lite,Wearables,3,999.99,10,2023-05-02,2023-05-06,Carol White,In-Store,False,2
+ORD-00488,CUST-034,InnovateCo,North,Tablet Max,Mobile,12,999.99,0,2023-05-03,2023-05-08,Bob Smith,In-Store,False,4
+ORD-00489,CUST-096,Acme Corp,East,Tablet Max,Accessories,12,1299.99,,2023-05-04,2023-05-09,Dave Brown,In-Store,False,2
+ORD-00490,CUST-048,InnovateCo,,Headphones,Accessories,9,299.99,0,2023-05-05,2023-05-12,Eve Davis,Online,,5
+ORD-00491,CUST-089,HorizonAI,North,Tablet Mini,Wearables,11,149.99,15,2023-05-06,2023-05-09,Eve Davis,In-Store,False,
+ORD-00492,CUST-001,FusionWorks,,Headphones,Wearables,2,999.99,5,2023-05-07,2023-05-10,Alice Johnson,Direct Sales,False,
+ORD-00493,CUST-016,GlobalEdge,East,Laptop Lite,Accessories,12,399.99,0,2023-05-08,2023-05-10,Carol White,In-Store,True,5
+ORD-00494,CUST-061,CloudNine,West,Smartphone X,Wearables,12,299.99,15,2023-05-09,2023-05-11,Bob Smith,In-Store,False,5
+ORD-00495,CUST-064,Acme Corp,South,Tablet Mini,Mobile,9,,5,2023-05-10,2023-05-15,Alice Johnson,Direct Sales,False,5
+ORD-00496,CUST-063,EagleEye,West,Keyboard,Mobile,-1,1299.99,20,2023-05-11,2023-05-14,Carol White,In-Store,False,4
+ORD-00497,CUST-069,BrightTech,West,Smartphone X,Accessories,8,399.99,25,2023-05-12,2023-05-13,Dave Brown,Direct Sales,False,5
+ORD-00498,CUST-022,EagleEye,North,Tablet Mini,Computers,2,599.99,20,2023-05-13,2023-05-17,Eve Davis,In-Store,False,4
+ORD-00499,CUST-093,HorizonAI,North,Tablet Mini,Mobile,6,149.99,0,2023-05-14,2023-05-17,Bob Smith,Direct Sales,False,4
+ORD-00500,CUST-067,InnovateCo,,Laptop Lite,Wearables,3,399.99,15,2023-05-15,2023-05-22,Eve Davis,In-Store,False,5
+ORD-00305,CUST-054,FusionWorks,West,Laptop Pro,Computers,10,1299.99,20,2022-11-01,2022-11-02,Alice Johnson,In-Store,False,5
+ORD-00341,CUST-059,CloudNine,South,Smartphone X,Wearables,7,399.99,0,2022-12-07,2022-12-09,Dave Brown,Online,False,5
+ORD-00048,CUST-021,HorizonAI,West,Laptop Pro,Wearables,5,999.99,15,2022-02-17,2022-02-21,Dave Brown,Online,False,2
+ORD-00068,CUST-078,BrightTech,South,Laptop Pro,Computers,9,399.99,10,2022-03-09,2022-03-14,Eve Davis,In-Store,False,3
+ORD-00480,CUST-090,GlobalEdge,East,Headphones,Computers,12,399.99,5,2023-04-25,2023-04-28,Dave Brown,Online,False,4
+ORD-00486,CUST-058,Acme Corp,South,Laptop Pro,Mobile,-1,149.99,5,2023-05-01,2023-05-02,Dave Brown,Online,False,4
+ORD-00311,CUST-038,Acme Corp,West,Smartphone SE,Computers,1,199.99,0,2022-11-07,2022-11-14,Bob Smith,Online,False,5
+ORD-00032,CUST-059,DeltaLogic,South,Smartphone SE,Wearables,10,599.99,0,2022-02-01,2022-02-08,Alice Johnson,Partner,False,2
+ORD-00250,CUST-086,GlobalEdge,South,Smartphone SE,Accessories,6,599.99,25,2022-09-07,2022-09-09,Dave Brown,Direct Sales,False,5
+ORD-00091,CUST-072,GlobalEdge,North,Laptop Pro,Accessories,6,199.99,15,2022-04-01,2022-04-07,Bob Smith,Direct Sales,True,5
+ORD-00323,CUST-080,FusionWorks,West,Laptop Pro,Wearables,1,399.99,10,2022-11-19,2022-11-20,Bob Smith,In-Store,False,4
+ORD-00169,CUST-036,GlobalEdge,West,Smartphone X,Wearables,7,599.99,20,2022-06-18,2022-06-21,Carol White,Partner,False,5
+ORD-00120,CUST-035,GlobalEdge,North,Keyboard,Mobile,8,299.99,25,2022-04-30,2022-05-05,Bob Smith,In-Store,False,4
+ORD-00067,CUST-035,EagleEye,North,Smartphone SE,Mobile,14,299.99,10,2022-03-08,2022-03-09,Carol White,Partner,False,4
+ORD-00306,CUST-033,Acme Corp,West,Monitor,Computers,9,399.99,0,2022-11-02,2022-11-04,Carol White,Direct Sales,False,1
+ORD-00190,CUST-089,BrightTech,South,Headphones,Accessories,3,399.99,5,2022-07-09,2022-07-16,Carol White,Direct Sales,False,3
+ORD-00435,CUST-032,InnovateCo,West,Laptop Pro,Accessories,8,399.99,10,2023-03-11,2023-03-16,Eve Davis,Direct Sales,False,2
+ORD-00290,CUST-002,EagleEye,East,Laptop Pro,Computers,5,,10,2022-10-17,2022-10-20,Eve Davis,Partner,False,5
+ORD-00143,CUST-099,EagleEye,East,Smartwatch,Mobile,14,399.99,10,2022-05-23,2022-05-27,Bob Smith,Online,False,
+ORD-00147,CUST-001,Acme Corp,North,Headphones,Mobile,1,2499.99,0,2022-05-27,2022-05-28,Dave Brown,Online,False,
