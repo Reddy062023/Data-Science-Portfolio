@@ -1,6 +1,6 @@
 # Data Science Portfolio — Japendra
 
-Welcome to my Data Science Portfolio! This repository contains end-to-end data analysis projects showcasing data cleaning, EDA, visualizations, and machine learning using Python.
+Welcome to my Data Science Portfolio! This repository contains end-to-end data analysis projects showcasing data cleaning, EDA, visualizations, machine learning, and production-grade data testing using Python.
 
 ---
 
@@ -66,6 +66,28 @@ End-to-end ML pipeline on 1000 loan records to predict default risk using Logist
 
 ---
 
+### 4. 🧪 Data Testing & Validation Framework
+**Folder:** `Tests/`
+
+Production-grade automated testing framework covering all 3 datasets with 59 tests across 5 test suites.
+
+| Item | Detail |
+|------|--------|
+| Total Tests | 59 |
+| Passed | 51 |
+| Failed | 2 (expected — raw data issues fixed in Phase 1) |
+| Warnings | 6 (harmless) |
+| Tools | Python, Pandas, NumPy, Scikit-learn |
+
+**Test Suites:**
+- Suite 1 — Schema Validation
+- Suite 2 — Data Quality
+- Suite 3 — Statistical Sanity
+- Suite 4 — ML Model Sanity
+- Suite 5 — Data Drift Detection
+
+---
+
 ## Repository Structure
 ```
 Data-Science-Portfolio/
@@ -95,6 +117,10 @@ Data-Science-Portfolio/
 │   ├── plots/
 │   └── README.md
 │
+├── Tests/
+│   ├── phase4_data_testing.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -108,6 +134,7 @@ Data-Science-Portfolio/
 | Data Manipulation | Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn, Plotly |
 | Machine Learning | Scikit-learn |
+| Testing | Custom TestRunner Framework |
 | Environment | Anaconda, VS Code |
 | Version Control | Git, GitHub |
 
@@ -118,19 +145,29 @@ Data-Science-Portfolio/
 # Clone the repo
 git clone https://github.com/Reddy062023/Data-Science-Portfolio.git
 
-# Navigate to any project
-cd Finance-ML
-
 # Activate environment
 conda activate myenv
 
 # Install dependencies
 pip install numpy pandas matplotlib seaborn plotly scikit-learn
 
-# Run analysis
+# Run any project
+cd Healthcare-Visualization
+python phase1_healthcare_eda.py
+python phase2_healthcare_viz.py
+
+cd ../Sales-EDA
+python phase1_sales_eda.py
+python phase2_sales_viz.py
+
+cd ../Finance-ML
 python phase1_finance_eda.py
 python phase2_finance_viz.py
 python phase3_finance_ml.py
+
+# Run tests
+cd ../Tests
+python phase4_data_testing.py
 ```
 
 ---
