@@ -136,5 +136,5 @@ python phase2_healthcare_viz.py
 ---
 
 ## Author
-Geetu  
+Japendra  
 Data Analysis Portfolio — Healthcare Visualization Project
