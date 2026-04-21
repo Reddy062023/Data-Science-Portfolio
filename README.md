@@ -265,3 +265,8 @@ SOURCE queries/01_basic_queries.sql;
 Data Scientist | Python | SQL | Pandas | Data Visualization | Machine Learning
 📁 [GitHub Portfolio](https://github.com/Reddy062023/Data-Science-Portfolio)
 🚀 [Live Dashboard](https://data-science-portfolio-25fwd289aynlntfxgs8rxm.streamlit.app)
+---
+Built by Japendra
+Portfolio: https://Reddy062023.github.io
+GitHub: https://github.com/Reddy062023
+Contact: japendras06@gmail.com
